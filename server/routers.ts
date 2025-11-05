@@ -14,6 +14,7 @@ import { pricingRouter } from "./routes/pricing";
 import { visualSearchRouter } from "./routes/visual-search";
 import { recommendationsRouter } from "./routes/recommendations";
 import { inventoryRouter } from "./routes/inventory";
+import { qualityRouter } from "./routes/quality";
 
 export const appRouter = router({
   system: systemRouter,
@@ -51,6 +52,9 @@ export const appRouter = router({
 
   // ==================== INVENTORY MANAGEMENT ====================
   inventory: inventoryRouter,
+
+  // ==================== QUALITY ASSESSMENT ====================
+  quality: qualityRouter,
 
   // ==================== SEVA WALLET ====================
   seva: router({
