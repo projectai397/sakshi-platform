@@ -12,6 +12,7 @@ import { chatbotRouter } from "./routers/ai/chatbot";
 import { smartSearchRouter } from "./routers/ai/smart-search";
 import { pricingRouter } from "./routes/pricing";
 import { visualSearchRouter } from "./routes/visual-search";
+import { recommendationsRouter } from "./routes/recommendations";
 
 export const appRouter = router({
   system: systemRouter,
@@ -43,6 +44,9 @@ export const appRouter = router({
 
   // ==================== VISUAL SEARCH ====================
   visualSearch: visualSearchRouter,
+
+  // ==================== RECOMMENDATIONS ====================
+  recommendations: recommendationsRouter,
 
   // ==================== SEVA WALLET ====================
   seva: router({
