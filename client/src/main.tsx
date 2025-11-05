@@ -10,6 +10,10 @@ import "./index.css";
 import "./adiyogi-backgrounds.css";
 import "./animations.css";
 import "./dark-mode.css";
+import { initializeAnalytics } from "./lib/analytics";
+
+// Initialize analytics
+initializeAnalytics();
 
 const queryClient = new QueryClient();
 
