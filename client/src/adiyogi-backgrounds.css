@@ -1,0 +1,84 @@
+/* Adiyogi Ghibli-style Background Styles for Sakshi Platform */
+
+.adiyogi-bg-1 {
+  background-image: url('/images/backgrounds/kZzOdJt9ua2x.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.adiyogi-bg-2 {
+  background-image: url('/images/backgrounds/SYagaeZybQKx.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.adiyogi-bg-3 {
+  background-image: url('/images/backgrounds/eJ2LYGVpjk9B.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.adiyogi-bg-4 {
+  background-image: url('/images/backgrounds/y37pKSWWMb67.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.adiyogi-bg-mountain {
+  background-image: url('/images/backgrounds/evbZLFcm11xB.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.adiyogi-bg-sunset {
+  background-image: url('/images/backgrounds/j0Z3JMOX6iDK.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.adiyogi-bg-forest {
+  background-image: url('/images/backgrounds/fVc0iLwPJnvt.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.adiyogi-bg-nature {
+  background-image: url('/images/backgrounds/t1a3o2zwLxah.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Overlay for better text readability */
+.adiyogi-overlay {
+  position: relative;
+}
+
+.adiyogi-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(2px);
+  z-index: -1;
+}
+
+/* Spiritual gradient overlay */
+.spiritual-gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(139, 195, 74, 0.1) 0%,
+    rgba(76, 175, 80, 0.1) 50%,
+    rgba(33, 150, 243, 0.1) 100%
+  );
+}

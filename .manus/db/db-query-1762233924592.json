@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO categories (name, slug, description, displayOrder, isActive, createdAt) VALUES\n('Clothing', 'clothing', 'Pre-loved fashion for everyone', 1, true, NOW()),\n('Books', 'books', 'Stories waiting to be rediscovered', 2, true, NOW()),\n('Household', 'household', 'Quality items for your home', 3, true, NOW()),\n('Toys & Games', 'toys-games', 'Joy for children of all ages', 4, true, NOW()),\n('Electronics', 'electronics', 'Functional tech at great prices', 5, true, NOW()),\n('Furniture', 'furniture', 'Unique pieces with character', 6, true, NOW())\nON DUPLICATE KEY UPDATE name=name",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4B6pcSUkTeP2XR3.a53871b971a5 --database kspyQmUk8B28CXQKQ8qB4U --execute INSERT INTO categories (name, slug, description, displayOrder, isActive, createdAt) VALUES\n('Clothing', 'clothing', 'Pre-loved fashion for everyone', 1, true, NOW()),\n('Books', 'books', 'Stories waiting to be rediscovered', 2, true, NOW()),\n('Household', 'household', 'Quality items for your home', 3, true, NOW()),\n('Toys & Games', 'toys-games', 'Joy for children of all ages', 4, true, NOW()),\n('Electronics', 'electronics', 'Functional tech at great prices', 5, true, NOW()),\n('Furniture', 'furniture', 'Unique pieces with character', 6, true, NOW())\nON DUPLICATE KEY UPDATE name=name",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1610
+}

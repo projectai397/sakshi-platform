@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO impact_metrics (metricDate, itemsDiverted, co2Prevented, waterSaved, familiesServed, freeItemsGiven, childrenItemsFree, revenueGenerated, tokensCirculated, volunteerHours, createdAt) VALUES (NOW(), 1250, 3500000, 125000, 450, 380, 120, 2500000, 890, 4200, NOW())",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4B6pcSUkTeP2XR3.a53871b971a5 --database kspyQmUk8B28CXQKQ8qB4U --execute INSERT INTO impact_metrics (metricDate, itemsDiverted, co2Prevented, waterSaved, familiesServed, freeItemsGiven, childrenItemsFree, revenueGenerated, tokensCirculated, volunteerHours, createdAt) VALUES (NOW(), 1250, 3500000, 125000, 450, 380, 120, 2500000, 890, 4200, NOW())",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1538
+}
