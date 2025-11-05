@@ -24,6 +24,32 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Vendor chunks
+          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+          'trpc-vendor': ['@trpc/client', '@trpc/react-query', '@tanstack/react-query'],
+          'ui-vendor': ['lucide-react', 'framer-motion'],
+          // Feature chunks
+          'payment': [
+            './client/src/components/payments/RazorpayCheckout.tsx',
+          ],
+          'admin': [
+            './client/src/pages/AdminDashboard.tsx',
+            './client/src/pages/AdminOrders.tsx',
+          ],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 1000,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+    },
   },
   server: {
     host: true,
