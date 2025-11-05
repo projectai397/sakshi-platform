@@ -1,0 +1,53 @@
+# ========================================
+# RAILWAY ENVIRONMENT VARIABLES
+# Copy and paste these into Railway dashboard
+# ========================================
+
+# REQUIRED - Session Secret (already generated for you)
+SESSION_SECRET=268c3baa1303451386a87af7aadfbd5827b5b4051387af418daa05f12c88f608
+
+# REQUIRED - Node Environment
+NODE_ENV=production
+
+# REQUIRED - AWS S3 (replace with your values)
+AWS_ACCESS_KEY_ID=your-aws-access-key-id-here
+AWS_SECRET_ACCESS_KEY=your-aws-secret-access-key-here
+AWS_REGION=us-east-1
+AWS_S3_BUCKET=sakshi-uploads
+
+# REQUIRED - OpenAI API (replace with your key)
+OPENAI_API_KEY=sk-your-openai-api-key-here
+
+# ========================================
+# OPTIONAL - OAuth (if using Manus OAuth)
+# ========================================
+# OAUTH_CLIENT_ID=your-oauth-client-id
+# OAUTH_CLIENT_SECRET=your-oauth-client-secret
+# OAUTH_REDIRECT_URI=https://your-app.railway.app/auth/callback
+# OAUTH_ISSUER=https://auth.manus.im
+
+# ========================================
+# OPTIONAL - Email (if using email features)
+# ========================================
+# SMTP_HOST=smtp.gmail.com
+# SMTP_PORT=587
+# SMTP_USER=your-email@gmail.com
+# SMTP_PASSWORD=your-app-password
+# SMTP_FROM=Sakshi Platform <noreply@sakshi.org>
+
+# ========================================
+# OPTIONAL - Payment Integration
+# ========================================
+# RAZORPAY_KEY_ID=rzp_test_xxxxx
+# RAZORPAY_KEY_SECRET=xxxxx
+# STRIPE_PUBLIC_KEY=pk_live_xxxxx
+# STRIPE_SECRET_KEY=sk_live_xxxxx
+
+# ========================================
+# NOTES:
+# ========================================
+# - DATABASE_URL: Auto-set by Railway PostgreSQL
+# - REDIS_URL: Auto-set by Railway Redis
+# - PORT: Auto-set by Railway
+# - Only add the variables above manually
+# ========================================
