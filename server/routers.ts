@@ -10,6 +10,7 @@ import { upiRouter } from "./routers/payments/upi";
 import { cryptoRouter } from "./routers/payments/crypto";
 import { chatbotRouter } from "./routers/ai/chatbot";
 import { smartSearchRouter } from "./routers/ai/smart-search";
+import { pricingRouter } from "./routes/pricing";
 
 export const appRouter = router({
   system: systemRouter,
@@ -35,6 +36,9 @@ export const appRouter = router({
     chatbot: chatbotRouter,
     smartSearch: smartSearchRouter,
   }),
+
+  // ==================== DYNAMIC PRICING ====================
+  pricing: pricingRouter,
 
   // ==================== SEVA WALLET ====================
   seva: router({
@@ -306,8 +310,9 @@ export const appRouter = router({
     }),
   }),
 
-  // ==================== AI FEATURES ====================
-  ai: router({
+  // ==================== LEGACY AI FEATURES (moved to ai router above) ====================
+  // Keeping for backward compatibility
+  aiLegacy: router({
     // Customer assistance chatbot
     customerChat: publicProcedure
       .input(z.object({
