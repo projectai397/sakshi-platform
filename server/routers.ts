@@ -5,6 +5,11 @@ import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, protectedProcedure, router } from "./_core/trpc";
 import * as db from "./db";
 import { invokeLLM } from "./_core/llm";
+import { razorpayRouter } from "./routers/payments/razorpay";
+import { upiRouter } from "./routers/payments/upi";
+import { cryptoRouter } from "./routers/payments/crypto";
+import { chatbotRouter } from "./routers/ai/chatbot";
+import { smartSearchRouter } from "./routers/ai/smart-search";
 
 export const appRouter = router({
   system: systemRouter,
@@ -16,6 +21,19 @@ export const appRouter = router({
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
       return { success: true } as const;
     }),
+  }),
+
+  // ==================== PAYMENTS ====================
+  payments: router({
+    razorpay: razorpayRouter,
+    upi: upiRouter,
+    crypto: cryptoRouter,
+  }),
+
+  // ==================== AI FEATURES ====================
+  ai: router({
+    chatbot: chatbotRouter,
+    smartSearch: smartSearchRouter,
   }),
 
   // ==================== SEVA WALLET ====================
