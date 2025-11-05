@@ -11,6 +11,7 @@ import { cryptoRouter } from "./routers/payments/crypto";
 import { chatbotRouter } from "./routers/ai/chatbot";
 import { smartSearchRouter } from "./routers/ai/smart-search";
 import { pricingRouter } from "./routes/pricing";
+import { visualSearchRouter } from "./routes/visual-search";
 
 export const appRouter = router({
   system: systemRouter,
@@ -39,6 +40,9 @@ export const appRouter = router({
 
   // ==================== DYNAMIC PRICING ====================
   pricing: pricingRouter,
+
+  // ==================== VISUAL SEARCH ====================
+  visualSearch: visualSearchRouter,
 
   // ==================== SEVA WALLET ====================
   seva: router({
