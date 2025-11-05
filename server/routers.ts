@@ -15,6 +15,15 @@ import { visualSearchRouter } from "./routes/visual-search";
 import { recommendationsRouter } from "./routes/recommendations";
 import { inventoryRouter } from "./routes/inventory";
 import { qualityRouter } from "./routes/quality";
+import { ltvRouter } from "./routes/ltv";
+import { fraudRouter } from "./routes/fraud";
+import { demandRouter } from "./routes/demand";
+import { taggingRouter } from "./routes/tagging";
+import { sizingRouter } from "./routes/sizing";
+import { sentimentRouter } from "./routes/sentiment";
+import { emailMarketingRouter } from "./routes/email-marketing";
+import { voiceRouter } from "./routes/voice";
+import { trendRouter } from "./routes/trends";
 
 export const appRouter = router({
   system: systemRouter,
@@ -55,6 +64,17 @@ export const appRouter = router({
 
   // ==================== QUALITY ASSESSMENT ====================
   quality: qualityRouter,
+
+  // ==================== ALL AI/ML FEATURES ====================
+  ltv: ltvRouter,
+  fraud: fraudRouter,
+  demand: demandRouter,
+  tagging: taggingRouter,
+  sizing: sizingRouter,
+  sentiment: sentimentRouter,
+  emailMarketing: emailMarketingRouter,
+  voice: voiceRouter,
+  trends: trendRouter,
 
   // ==================== SEVA WALLET ====================
   seva: router({
