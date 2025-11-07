@@ -319,3 +319,35 @@ MIT License - Built with ❤️ for the circular economy
 Made with 🌱 for the circular economy
 
 </div>
+
+---
+
+## 🏛️ Sakshi Center Integration
+
+This platform embodies the vision of the **Sakshi Center** (साक्षी केंद्र) - a Foundation for Conscious Living that creates complete ecosystems where ancient wisdom meets modern innovation.
+
+> "We are not gurus — we are engineers finding ways to live in harmony with nature and consciousness."
+
+### The Complete Ecosystem
+
+The Sakshi Center operates six interconnected initiatives, and this platform serves as the digital backbone:
+
+1. **Meditation App** - AI-powered guidance (10,000+ users)
+2. **Sakshi Cafés** - Women-owned cooperatives
+3. **Thrift Stores** - Circular economy model (this platform)
+4. **Silent Village** - 100-person carbon-negative community
+5. **Silent Retreats** - 3-30 day transformation programs
+6. **AR/VR Meditation** - Immersive technology experiences
+
+### Core Principles
+
+- **Consciousness as Currency:** Seva Tokens reward meditation, volunteering, and donations
+- **Triple Pricing:** Community | Fair | Supporter (ensuring access for all)
+- **Women's Empowerment:** 100% worker-owned cooperatives
+- **Environmental Sustainability:** Carbon negative, zero waste, circular economy
+- **Open-Source Blueprint:** Designed to be replicated anywhere
+
+📄 **Learn More:** See [SAKSHI_CENTER_INTEGRATION.md](./SAKSHI_CENTER_INTEGRATION.md) for complete details.
+
+---
+
