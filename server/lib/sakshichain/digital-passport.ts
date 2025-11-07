@@ -1,5 +1,5 @@
-import { getDb } from "../db";
-import { digitalProductPassports } from "../../drizzle/schema-sakshichain";
+import { getDb } from "../../db";
+import { digitalProductPassports } from "../../../drizzle/schema-sakshichain";
 import { eq } from "drizzle-orm";
 
 interface DPPData {

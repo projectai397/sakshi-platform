@@ -1,5 +1,5 @@
-import { getDb } from "../db";
-import { sakWallets, sakTransactions, sakStaking } from "../../drizzle/schema-sakshichain";
+import { getDb } from "../../db";
+import { sakWallets, sakTransactions, sakStaking } from "../../../drizzle/schema-sakshichain";
 import { eq, and, sql } from "drizzle-orm";
 
 export class SakshiCoinService {
