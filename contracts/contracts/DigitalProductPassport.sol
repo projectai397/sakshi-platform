@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
+
 
 /**
  * @title DigitalProductPassport
@@ -12,8 +12,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
  * Each NFT represents a unique product with its complete lifecycle history
  */
 contract DigitalProductPassport is ERC721, ERC721URIStorage, Ownable {
-    using Counters for Counters.Counter;
-    Counters.Counter private _tokenIds;
+    uint256 private _tokenIds;
 
     // Mapping from token ID to product ID on Sakshi platform
     mapping(uint256 => uint256) public tokenToProductId;
@@ -45,8 +44,8 @@ contract DigitalProductPassport is ERC721, ERC721URIStorage, Ownable {
     ) public onlyOwner returns (uint256) {
         require(productIdToToken[productId] == 0, "DPP already exists for this product");
         
-        _tokenIds.increment();
-        uint256 newTokenId = _tokenIds.current();
+        _tokenIds++;
+        uint256 newTokenId = _tokenIds;
 
         _safeMint(recipient, newTokenId);
         _setTokenURI(newTokenId, tokenURI);
