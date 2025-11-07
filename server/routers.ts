@@ -24,6 +24,8 @@ import { sentimentRouter } from "./routes/sentiment";
 import { emailMarketingRouter } from "./routes/email-marketing";
 import { voiceRouter } from "./routes/voice";
 import { trendRouter } from "./routes/trends";
+import { dppRouter } from "./routes/dpp";
+import { sakshicoinRouter } from "./routes/sakshicoin";
 
 export const appRouter = router({
   system: systemRouter,
@@ -75,6 +77,10 @@ export const appRouter = router({
   emailMarketing: emailMarketingRouter,
   voice: voiceRouter,
   trends: trendRouter,
+
+  // ==================== SAKSHICHAIN ====================
+  dpp: dppRouter,
+  sakshicoin: sakshicoinRouter,
 
   // ==================== SEVA WALLET ====================
   seva: router({

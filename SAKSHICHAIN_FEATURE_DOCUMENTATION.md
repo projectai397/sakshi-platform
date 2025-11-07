@@ -58,3 +58,20 @@ Two new React components have been created to provide a user interface for the S
 - **API Endpoints:** Create tRPC routers and API endpoints to connect the frontend components to the backend services.
 - **UI Integration:** Integrate the new components into the product details page and user dashboard.
 - **Testing:** Write unit and integration tests for the new services and components.
+
+
+## 6. API Endpoints
+
+New tRPC routers have been created to expose the SakshiChain services to the frontend:
+
+- **dppRouter** (`server/routes/dpp.ts`): Provides endpoints for creating, retrieving, and managing Digital Product Passports.
+- **sakshicoinRouter** (`server/routes/sakshicoin.ts`): Provides endpoints for managing SAK wallets, transactions, and rewards.
+
+These routers have been added to the main `appRouter` in `server/routers.ts`.
+
+## 7. UI Integration
+
+The SakshiChain components have been integrated into the platform as follows:
+
+- **DigitalPassportViewer**: Added to the `ProductDetail.tsx` page to display the DPP for each product.
+- **SAKWalletDashboard**: A new page `SAKWallet.tsx` has been created to host the SAK wallet dashboard, accessible from the user's main dashboard.

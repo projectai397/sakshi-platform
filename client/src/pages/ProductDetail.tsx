@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { getLoginUrl } from "@/const";
+import { DigitalPassportViewer } from "@/components/sakshichain/DigitalPassportViewer";
 
 type PaymentMethod = "money" | "seva_tokens" | "free";
 
@@ -477,6 +478,25 @@ export default function ProductDetail() {
                     </div>
                   </div>
                 </div>
+              </div>
+
+              {/* Digital Product Passport */}
+              <div className="mt-8">
+                <DigitalPassportViewer
+                  dpp={{
+                    id: 1,
+                    originalBrand: product.brand || undefined,
+                    materialComposition: product.material || undefined,
+                    countryOfOrigin: "Unknown",
+                    ownershipHistory: [],
+                    careRepairLog: [],
+                    impactScore: "50",
+                    co2Saved: "5.5",
+                    waterSaved: "2700",
+                    isMinted: false,
+                  }}
+                  productName={product.name}
+                />
               </div>
 
               {/* Environmental Impact */}
