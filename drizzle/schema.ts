@@ -786,3 +786,6 @@ export * from './schema-innovations';
 
 // Meditation Technology Schema
 export * from './schema-meditation';
+
+// Oasis Wellness Sanctuary
+export * from './schema-oasis';
