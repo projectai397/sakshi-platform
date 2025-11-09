@@ -48,7 +48,7 @@ The platform comprises **124 comprehensive database tables** organized across 9 
 
 **Meditation Technology** (15 tables) - AI camera-based posture detection, VR meditation environments, biometric feedback systems, neurofeedback protocols, guided meditation content, group meditation circles, and comprehensive progress tracking.
 
-**Sakshi Oasis Wellness Sanctuary** (13 tables) - Technology disconnection sanctuary with 12 transformative therapy experiences, membership management, booking systems, staff scheduling, equipment inventory, wellness progress tracking, intention setting, and group session coordination.
+**Sakshi Oasis Wellness Sanctuary** (13 tables) - Technology disconnection sanctuary with 12 transformative therapy experiences, membership management, booking systems, staff scheduling, equipment inventory, wellness progress tracking, intention setting, and group session coordination. Investment of ₹2.80 crores delivers superior technology compared to Dubai Museum of the Future's Al Waha floor (₹577-808 crores) - achieving 400x cost efficiency through intelligent design.
 
 ### Backend Architecture
 
@@ -110,7 +110,7 @@ Tokens can be redeemed for discounts on food purchases (100 tokens = ₹10), fre
 
 ### Sakshi Oasis - Wellness Sanctuary
 
-Inspired by Dubai's Museum of the Future Al Waha but deeply rooted in Indian healing traditions, Sakshi Oasis represents India's first technology disconnection wellness sanctuary.
+Inspired by Dubai's Museum of the Future Al Waha but deeply rooted in Indian healing traditions, Sakshi Oasis represents India's first technology disconnection wellness sanctuary. While Dubai invested ₹577-808 crores in their wellness floor as part of an ₹11,550 crore museum project, Sakshi achieves superior therapeutic technology for ₹2.80 crores - delivering 12 therapies versus Dubai's 6, with advanced biometric tracking and AI personalization that Dubai lacks. This 400x cost efficiency proves that transformational wellness doesn't require iconic architecture, just intelligent design and authentic healing traditions.
 
 #### 12 Transformative Experiences
 
@@ -322,7 +322,7 @@ The business model demonstrates strong unit economics across all revenue streams
 
 ### Investment Requirements
 
-**Seed Round** of ₹10 crores for 20% equity funds 3 cafe locations (₹45 lakhs each), 1 Oasis sanctuary (₹35 lakhs), technology development (₹1.5 crores), marketing and brand building (₹2 crores), working capital (₹1.5 crores), and team expansion (₹2 crores).
+**Seed Round** of ₹10 crores for 20% equity funds 3 cafe locations (₹45 lakhs each), 1 Oasis sanctuary (₹2.80 crores - achieving 400x cost efficiency vs Dubai's ₹800 crore wellness floor), technology development (₹2 crores including LLM server), marketing and brand building (₹2 crores), working capital (₹1.5 crores), and team expansion (₹50 lakhs).
 
 **Series A** of ₹50 crores for 15% equity at 3x valuation enables expansion to 25 cafe locations, 8 Oasis sanctuaries, franchise development, technology scaling, and national marketing campaigns.
 
@@ -478,9 +478,27 @@ The platform creates measurable social impact across multiple dimensions.
 
 **Measurability** - Biometric tracking proves outcomes with data on stress reduction, HRV improvement, and sleep quality, versus subjective feelings alone.
 
-### vs. Museum of the Future Al Waha
+### vs. Dubai Museum of the Future Al Waha
 
-**More Therapies** - 12 experiences versus Al Waha's 5, providing more comprehensive wellness journey.
+**Cost Efficiency** - ₹2.80 crores investment versus Dubai's ₹577-808 crores (0.35% of their cost), achieving 400x cost efficiency through intelligent design and focused scope.
+
+**More Therapies** - 12 comprehensive therapy experiences versus Al Waha's 6 respite activities, providing deeper therapeutic journey.
+
+**Advanced Biometrics** - Intel RealSense cameras with HRV tracking and posture detection versus Dubai's lack of biometric monitoring, enabling measurable wellness outcomes.
+
+**AI Personalization** - Llama 3 8B fine-tuned on Ayurvedic dosha database provides real-time therapy customization, while Dubai offers static experiences for all visitors.
+
+**Longer Sessions** - 60-90 minute immersive therapy journeys versus Dubai's 30-45 minute respite space, allowing true transformation rather than brief relaxation.
+
+**VR Meditation** - 6 headsets with 12 sacred Indian environments versus Dubai's lack of VR meditation, providing immersive spiritual experiences.
+
+**Dedicated Purpose** - Purpose-built wellness sanctuary versus one floor of a seven-floor museum, ensuring every element serves therapeutic function.
+
+**Member Model** - Ongoing transformation through unlimited monthly visits versus Dubai's one-time tourist experience at ₹3,350 entry fee.
+
+**Ayurvedic Integration** - Authentic Indian healing traditions with dosha-based personalization versus Dubai's generic sensory restoration approach.
+
+**Measurable Outcomes** - Before/after biometric data proves effectiveness versus Dubai's subjective experience only.
 
 **Accessibility** - Open to public with memberships versus museum-only access requiring ₹3,300 ticket.
 

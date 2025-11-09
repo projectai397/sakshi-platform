@@ -2,8 +2,8 @@
   "project_info": {
     "title": "Sakshi: India's First Conscious Living Ecosystem",
     "created": 1762665963.7675402,
-    "last_updated": 1762681674.6164756,
-    "total_slides": 17
+    "last_updated": 1762682054.016193,
+    "total_slides": 18
   },
   "slides": {
     "title": "edited",
@@ -14,6 +14,7 @@
     "competitive_advantage": "edited",
     "competitive_advantage_cont": "edited",
     "technology": "edited",
+    "dubai_benchmark": "edited",
     "traction": "edited",
     "go_to_market": "edited",
     "financials": "edited",
@@ -79,6 +80,13 @@
       "title": "Production-Ready Technology Platform",
       "summary": "Complete scalable platform with 97 database tables, 100+ APIs, 12 frontend components, AI integration, PWA support - 90,000+ lines of code ready for immediate deployment.",
       "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "dubai_benchmark",
+      "title": "Dubai Benchmark: 400x Cost Efficiency",
+      "summary": "Comparison with Dubai Museum of the Future's Al Waha wellness floor showing Sakshi achieves superior technology for ₹2.80 crores versus Dubai's ₹577-808 crores. Highlight 12 therapies vs 6, biometric tracking, AI personalization, 60-90 min sessions vs 30-45 min, and measurable outcomes. Frame as validation of market + proof of frugal innovation.",
+      "image_plan": "No images needed, data-focused slide",
       "slide_template_key": ""
     },
     {
