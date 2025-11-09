@@ -783,3 +783,6 @@ export * from './schema-operations';
 export * from './schema-marketplace';
 // Export innovative features tables
 export * from './schema-innovations';
+
+// Meditation Technology Schema
+export * from './schema-meditation';
