@@ -6,6 +6,7 @@ import { cookingClassesRouter } from './classes';
 import { mealSubscriptionsRouter } from './subscriptions';
 import { cafeLocationsRouter, franchisesRouter } from './locations';
 import { healthTrackingRouter } from './health';
+import { paymentsRouter } from './payments';
 
 export const cafeRouter = router({
   menu: cafeMenuRouter,
@@ -16,4 +17,5 @@ export const cafeRouter = router({
   locations: cafeLocationsRouter,
   franchises: franchisesRouter,
   health: healthTrackingRouter,
+  payments: paymentsRouter,
 });
