@@ -2,8 +2,8 @@
   "project_info": {
     "title": "Sakshi: India's First Conscious Living Ecosystem",
     "created": 1762665963.7675402,
-    "last_updated": 1762682054.016193,
-    "total_slides": 18
+    "last_updated": 1762682922.6998627,
+    "total_slides": 20
   },
   "slides": {
     "title": "edited",
@@ -15,6 +15,8 @@
     "competitive_advantage_cont": "edited",
     "technology": "edited",
     "dubai_benchmark": "edited",
+    "llm_infrastructure": "edited",
+    "llm_infrastructure_cont": "edited",
     "traction": "edited",
     "go_to_market": "edited",
     "financials": "edited",
@@ -88,6 +90,20 @@
       "summary": "Comparison with Dubai Museum of the Future's Al Waha wellness floor showing Sakshi achieves superior technology for ₹2.80 crores versus Dubai's ₹577-808 crores. Highlight 12 therapies vs 6, biometric tracking, AI personalization, 60-90 min sessions vs 30-45 min, and measurable outcomes. Frame as validation of market + proof of frugal innovation.",
       "image_plan": "No images needed, data-focused slide",
       "slide_template_key": ""
+    },
+    {
+      "id": "llm_infrastructure",
+      "title": "LLM Infrastructure: Cloud-First Strategy",
+      "summary": "Present the final LLM infrastructure decision: RTX 4090 Cloud (RunPod Secure) at ₹6.51L (3-year TCO). Show decision summary box with key metrics (3-year cost, savings of ₹111.49L vs H100 on-premise, performance of 50-100 tok/sec). Display TCO analysis chart comparing all options. Emphasize zero upfront capital and 18x cost efficiency.",
+      "image_plan": "Include the TCO analysis chart showing 3-year cost comparison between RTX 4090 Cloud, H100 Cloud, and H100 On-Premise",
+      "slide_template_key": ""
+    },
+    {
+      "id": "llm_infrastructure_cont",
+      "title": "LLM Infrastructure: Strategic Advantages",
+      "summary": "Detail the 5 strategic advantages of cloud-first approach: (1) Zero upfront capital - preserves ₹1 Cr for revenue assets, (2) Variable cost structure - downside protection, (3) Instant scalability - add locations in <1 day, (4) Technology flexibility - upgrade without stranded capital, (5) Production-grade reliability - 99.9% SLA. Bottom message: Capital efficiency meets technical excellence, transition to on-premise at scale (Year 3+).",
+      "slide_template_key": "",
+      "image_plan": "No images needed, text-focused slide"
     },
     {
       "id": "traction",
