@@ -1,7 +1,7 @@
 {
   "name": "Sakshi Platform - Spiritual Thrift Store",
   "short_name": "Sakshi",
-  "description": "A spiritual thrift store platform combining conscious consumption with community values. Shop with money, seva tokens, or get items free.",
+  "description": "Conscious living made accessible. Healthy food, sustainable living, thrift shopping, and meaningful community.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -57,7 +57,7 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["shopping", "lifestyle", "social"],
+  "categories": ["shopping", "food", "health", "lifestyle", "social"],
   "screenshots": [
     {
       "src": "/screenshots/home.png",
@@ -93,6 +93,20 @@
       "description": "Check seva token balance",
       "url": "/seva-wallet",
       "icons": [{ "src": "/icons/wallet-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Cafe Menu",
+      "short_name": "Menu",
+      "description": "View Satvic cafe menu",
+      "url": "/cafe/menu",
+      "icons": [{ "src": "/icons/menu-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Cooking Classes",
+      "short_name": "Classes",
+      "description": "Browse cooking classes",
+      "url": "/cafe/classes",
+      "icons": [{ "src": "/icons/classes-96x96.png", "sizes": "96x96" }]
     }
   ],
   "related_applications": [],
