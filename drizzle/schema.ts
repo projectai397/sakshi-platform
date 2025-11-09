@@ -781,3 +781,5 @@ export * from './schema-operations';
 
 // Export marketplace expansion tables
 export * from './schema-marketplace';
+// Export innovative features tables
+export * from './schema-innovations';
