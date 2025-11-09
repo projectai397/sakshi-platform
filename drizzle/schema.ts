@@ -778,3 +778,6 @@ export * from './schema-centers';
 
 // Export business operations tables
 export * from './schema-operations';
+
+// Export marketplace expansion tables
+export * from './schema-marketplace';

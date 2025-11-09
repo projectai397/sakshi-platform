@@ -57,6 +57,13 @@
       "when": 1762662195432,
       "tag": "0007_useful_proudstar",
       "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1762662417368,
+      "tag": "0008_condemned_leper_queen",
+      "breakpoints": true
     }
   ]
 }
