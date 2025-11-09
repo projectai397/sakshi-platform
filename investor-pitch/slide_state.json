@@ -2,20 +2,21 @@
   "project_info": {
     "title": "Sakshi: India's First Conscious Living Ecosystem",
     "created": 1762665963.7675402,
-    "last_updated": 1762666507.181866,
-    "total_slides": 15
+    "last_updated": 1762681311.5524094,
+    "total_slides": 16
   },
   "slides": {
     "title": "edited",
     "problem": "edited",
-    "solution": "edit_pending",
-    "business_model": "edit_pending",
-    "market": "edit_pending",
-    "competitive_advantage": "edit_pending",
-    "technology": "edit_pending",
+    "solution": "edited",
+    "business_model": "edited",
+    "market": "edited",
+    "competitive_advantage": "edited",
+    "competitive_advantage_cont": "edited",
+    "technology": "edited",
     "traction": "edit_pending",
     "go_to_market": "edit_pending",
-    "financials": "edit_pending",
+    "financials": "edited",
     "impact": "edit_pending",
     "team": "edit_pending",
     "ask": "edit_pending",
@@ -60,10 +61,17 @@
     },
     {
       "id": "competitive_advantage",
-      "title": "15 Unique Innovations Create Unassailable Moat",
-      "summary": "Proprietary features including Community Meal Sponsorship, Farm-to-Table Transparency, Zero-Waste Dashboard, Ayurvedic Customization, and Mindful Dining Tracker that no competitor can replicate.",
-      "image_plan": "Use a suitable image if needed",
+      "title": "8 Core Proprietary Innovations",
+      "summary": "First part showcasing 8 primary innovations that create competitive moat: Community Meal Sponsorship, Farm-to-Table Transparency, Zero-Waste Dashboard, Ayurvedic Customization, Mindful Dining Tracker, Regenerative Actions, Nutrition Passport, and AI Meditation Technology with detailed descriptions of each.",
+      "image_plan": "No images needed, using icons for visual interest",
       "slide_template_key": ""
+    },
+    {
+      "id": "competitive_advantage_cont",
+      "title": "7 Additional Innovations + Competitive Moat",
+      "summary": "Continuation showing 7 additional proprietary features (Seva Token Economy, Triple Pricing, Gratitude Wall, Impact Dashboard, Farmer Profit Sharing, Circular Economy, Wellness Sanctuary) and explaining the defensibility through network effects, data moats, and technology barriers that would take competitors 2-3 years and ₹5+ crores to replicate.",
+      "slide_template_key": "",
+      "image_plan": "No images needed"
     },
     {
       "id": "technology",

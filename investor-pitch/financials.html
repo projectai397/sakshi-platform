@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path to ₹24 Crore Revenue</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            padding: 50px 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="mb-6">
+            <h1 class="text-gray-800 font-bold text-5xl mb-3">Path to ₹24 Crore Revenue</h1>
+            <p class="text-gray-600 text-2xl font-medium">Conservative projections with strong unit economics</p>
+        </div>
+        
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-2 gap-8">
+            <!-- Left: Revenue Chart -->
+            <div>
+                <div style="height: 280px;">
+                    <canvas id="revenueChart"></canvas>
+                </div>
+                
+                <div class="mt-5 bg-green-50 border-2 border-green-600 px-5 py-4">
+                    <h3 class="text-green-600 font-bold text-lg mb-3">Break-Even Timeline</h3>
+                    <div class="space-y-2">
+                        <div class="flex justify-between">
+                            <span class="text-gray-700 font-medium text-sm">Location Break-Even</span>
+                            <span class="text-gray-800 font-bold">Month 4-5</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-700 font-medium text-sm">Company Break-Even</span>
+                            <span class="text-gray-800 font-bold">Year 2</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-700 font-medium text-sm">Profitable Growth</span>
+                            <span class="text-gray-800 font-bold">Year 3+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right: Metrics Table -->
+            <div>
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="bg-gray-800 text-white">
+                            <th class="px-3 py-2 text-left font-bold">Metric</th>
+                            <th class="px-3 py-2 text-center font-bold">Year 1</th>
+                            <th class="px-3 py-2 text-center font-bold">Year 2</th>
+                            <th class="px-3 py-2 text-center font-bold">Year 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-gray-100">
+                            <td class="px-3 py-2 font-semibold text-gray-800">Cafe Locations</td>
+                            <td class="px-3 py-2 text-center text-gray-700">2</td>
+                            <td class="px-3 py-2 text-center text-gray-700">8</td>
+                            <td class="px-3 py-2 text-center text-gray-700">25</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="px-3 py-2 font-semibold text-gray-800">Oasis Locations</td>
+                            <td class="px-3 py-2 text-center text-gray-700">1</td>
+                            <td class="px-3 py-2 text-center text-gray-700">3</td>
+                            <td class="px-3 py-2 text-center text-gray-700">8</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="px-3 py-2 font-semibold text-gray-800">Revenue</td>
+                            <td class="px-3 py-2 text-center text-green-600 font-bold">₹4.8 Cr</td>
+                            <td class="px-3 py-2 text-center text-green-600 font-bold">₹14.4 Cr</td>
+                            <td class="px-3 py-2 text-center text-green-600 font-bold">₹24 Cr</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="px-3 py-2 font-semibold text-gray-800">Gross Margin</td>
+                            <td class="px-3 py-2 text-center text-gray-700">60%</td>
+                            <td class="px-3 py-2 text-center text-gray-700">63%</td>
+                            <td class="px-3 py-2 text-center text-gray-700">65%</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="px-3 py-2 font-semibold text-gray-800">EBITDA Margin</td>
+                            <td class="px-3 py-2 text-center text-gray-700">10%</td>
+                            <td class="px-3 py-2 text-center text-gray-700">12%</td>
+                            <td class="px-3 py-2 text-center text-gray-700">15%</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="px-3 py-2 font-semibold text-gray-800">Net Profit</td>
+                            <td class="px-3 py-2 text-center text-green-600 font-bold">₹48 L</td>
+                            <td class="px-3 py-2 text-center text-green-600 font-bold">₹1.7 Cr</td>
+                            <td class="px-3 py-2 text-center text-green-600 font-bold">₹3.6 Cr</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="px-3 py-2 font-semibold text-gray-800">Daily Customers</td>
+                            <td class="px-3 py-2 text-center text-gray-700">200</td>
+                            <td class="px-3 py-2 text-center text-gray-700">800</td>
+                            <td class="px-3 py-2 text-center text-gray-700">2,500</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="px-3 py-2 font-semibold text-gray-800">Oasis Members</td>
+                            <td class="px-3 py-2 text-center text-gray-700">100</td>
+                            <td class="px-3 py-2 text-center text-gray-700">500</td>
+                            <td class="px-3 py-2 text-center text-gray-700">2,000</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="px-3 py-2 font-semibold text-gray-800">Team Size</td>
+                            <td class="px-3 py-2 text-center text-gray-700">25</td>
+                            <td class="px-3 py-2 text-center text-gray-700">100</td>
+                            <td class="px-3 py-2 text-center text-gray-700">300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Bottom: Unit Economics -->
+        <div class="mt-5 grid grid-cols-4 gap-4">
+            <div class="bg-gray-100 px-4 py-3 text-center">
+                <div class="text-green-600 font-black text-2xl">₹48K</div>
+                <div class="text-gray-700 font-semibold text-sm">Customer LTV</div>
+            </div>
+            <div class="bg-gray-100 px-4 py-3 text-center">
+                <div class="text-green-600 font-black text-2xl">₹800</div>
+                <div class="text-gray-700 font-semibold text-sm">CAC</div>
+            </div>
+            <div class="bg-gray-100 px-4 py-3 text-center">
+                <div class="text-green-600 font-black text-2xl">60x</div>
+                <div class="text-gray-700 font-semibold text-sm">LTV/CAC Ratio</div>
+            </div>
+            <div class="bg-gray-100 px-4 py-3 text-center">
+                <div class="text-green-600 font-black text-2xl">24 Mo</div>
+                <div class="text-gray-700 font-semibold text-sm">Avg Retention</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const ctx = document.getElementById('revenueChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Year 1', 'Year 2', 'Year 3'],
+                datasets: [{
+                    label: 'Revenue (₹ Crores)',
+                    data: [4.8, 14.4, 24],
+                    borderColor: '#059669',
+                    backgroundColor: 'rgba(5, 150, 105, 0.1)',
+                    borderWidth: 4,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 6,
+                    pointBackgroundColor: '#059669'
+                },
+                {
+                    label: 'Profit (₹ Crores)',
+                    data: [0.48, 1.7, 3.6],
+                    borderColor: '#10b981',
+                    backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 5,
+                    pointBackgroundColor: '#10b981'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            font: { size: 14, family: 'Inter', weight: '600' },
+                            color: '#374151'
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Revenue & Profit Growth Trajectory',
+                        font: { size: 16, family: 'Inter', weight: '700' },
+                        color: '#1f2937'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            font: { size: 12, family: 'Inter' },
+                            color: '#6b7280',
+                            callback: function(value) {
+                                return '₹' + value + ' Cr';
+                            }
+                        },
+                        grid: { color: '#e5e7eb' }
+                    },
+                    x: {
+                        ticks: {
+                            font: { size: 12, family: 'Inter', weight: '600' },
+                            color: '#374151'
+                        },
+                        grid: { display: false }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
