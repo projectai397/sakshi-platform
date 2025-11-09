@@ -772,3 +772,6 @@ export type InsertCafeApplication = typeof cafeApplications.$inferInsert;
 
 // Export cafe-related tables
 export * from './schema-cafe';
+
+// Export other Sakshi Centers tables
+export * from './schema-centers';
