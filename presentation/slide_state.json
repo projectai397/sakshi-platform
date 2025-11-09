@@ -1,0 +1,108 @@
+{
+  "project_info": {
+    "title": "Sakshi AI Platform",
+    "created": 1762547187.1588306,
+    "last_updated": 1762547601.46272,
+    "total_slides": 12
+  },
+  "slides": {
+    "title": "edited",
+    "three_pillars": "edited",
+    "core_platform": "edited",
+    "ai_features": "edited",
+    "ai_features_cont": "edited",
+    "digital_passports": "edited",
+    "sakshicoin": "edited",
+    "tech_stack": "edited",
+    "completion_status": "edited",
+    "business_impact": "edited",
+    "next_steps": "edited",
+    "next_steps_cont": "edited"
+  },
+  "outline": [
+    {
+      "id": "title",
+      "title": "Sakshi AI Platform",
+      "summary": "Title slide introducing the Sakshi AI Platform as a next-generation thrift marketplace powered by AI and blockchain technology.",
+      "image_plan": "/home/ubuntu/upload/search_images/dxxPhcEjbbKC.png; /home/ubuntu/upload/search_images/FvlJRM1uFiDt.png - The slide introduces the platform as a \"Conscious Commerce\" thrift marketplace, which aligns perfectly with the concept of a Circular Economy. Images 7 and 8 both visually represent the circular economy model.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "three_pillars",
+      "title": "Three Powerful Elements Transform Resale",
+      "summary": "Overview of how Sakshi merges AI, blockchain, and social impact with 62 total features, SakshiChain innovation, triple pricing system, and measurable environmental impact.",
+      "image_plan": "/home/ubuntu/upload/search_images/tkC2Xt78POGu.jpg - This slide discusses the combination of AI, blockchain, and social impact to create an advanced circular economy platform. Image 1 visually represents AI integrated with commerce/technology, covering the AI aspect. The circular economy aspect is covered by the previous slide.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "core_platform",
+      "title": "Enterprise-Grade E-Commerce with Social Purpose",
+      "summary": "Details of all 47 core features including user management, product catalog, smart checkout, community features, admin dashboard, and mobile optimization.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "ai_features",
+      "title": "15 AI Features: Tier 1 Critical Impact",
+      "summary": "First part focusing on the 5 Tier 1 critical AI features with their specific business impact metrics. Each feature includes the name, description, and impact percentage (Dynamic Pricing +25-35% revenue, Visual Search +40% discovery, Personalized Recommendations +30% AOV, Intelligent Inventory -30-40% cost, Quality Assessment +50% faster processing). The AI landscape image is included on the right side to provide visual support.",
+      "image_plan": "/home/ubuntu/upload/search_images/oiqN8vl55mr8.jpg - AI Technology Landscape image positioned on the right side of the slide to visually represent the power of AI driving these features.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "ai_features_cont",
+      "title": "15 AI Features: Additional Capabilities",
+      "summary": "Continuation slide showcasing the remaining 10 AI features across Tier 2 (High Impact) and Tier 3 (Medium Impact). Lists features including Customer LTV prediction, fraud detection, smart chatbot enhancement, demand forecasting, automated product tagging, size & fit recommendations, sentiment analysis for reviews, personalized email marketing, voice search capabilities, and trend prediction. Emphasizes that all 15 features work together to create a comprehensive AI-powered platform.",
+      "slide_template_key": "",
+      "image_plan": "No image needed for this continuation slide - it focuses on listing the additional 10 AI features with brief descriptions of their capabilities and business value."
+    },
+    {
+      "id": "digital_passports",
+      "title": "Digital Product Passports Solve Trust Challenge",
+      "summary": "Explanation of blockchain-verified NFTs that track product lifecycle, prove authenticity, calculate environmental impact, and eliminate counterfeits.",
+      "image_plan": "/home/ubuntu/upload/search_images/Y0o7JX8vOJtp.jpg - This slide focuses on Digital Product Passports (DPPs) and blockchain to solve the trust issue. Image 6 is a strong visualization of blockchain technology (glowing cubes/blocks in a network) and is highly relevant.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "sakshicoin",
+      "title": "SakshiCoin Creates Self-Sustaining Rewards Economy",
+      "summary": "Details on how users earn and spend SAK tokens, the economic model with staking rewards, and governance rights that create true ownership.",
+      "image_plan": "/home/ubuntu/upload/search_images/ZD1zd2uRqvSZ.png - This slide focuses on SakshiCoin, an ERC20 utility token, and the rewards economy. Image 5 is a complex network visualization, which can represent the interconnectedness of a token economy or a distributed ledger. It is the best remaining option for a crypto/network concept.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tech_stack",
+      "title": "Modern Technology Ensures Enterprise Scalability",
+      "summary": "Overview of the production-grade technology stack including frontend (Next.js, React, TypeScript), backend (Node.js, PostgreSQL, Redis), AI/ML (Python, PyTorch), and blockchain (Solidity, Polygon).",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "completion_status",
+      "title": "100% Complete and Ready for Deployment",
+      "summary": "Comprehensive completion status showing all 62 features implemented, zero build errors, complete documentation, 120+ test cases, and multiple deployment options.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "business_impact",
+      "title": "Expected 300-500% ROI Within First Year",
+      "summary": "Projected business impact including revenue growth from AI features, cost reductions, user engagement metrics, and measurable social impact.",
+      "image_plan": "/home/ubuntu/upload/search_images/tN32vH6luXIr.jpg - This slide discusses the expected business impact, revenue growth, and cost reduction driven by AI. Image 2 is a professional visual of a person holding an AI chip/network, representing the power and future of the technology driving the business impact.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "next_steps",
+      "title": "Launch Roadmap: Immediate & Short-term",
+      "summary": "First part of the 90-day roadmap focusing on Immediate Deployment (Week 1-2) and Short-term Growth (Month 1-3). Immediate deployment includes: deploy to Railway, run end-to-end testing, deploy smart contracts to Polygon Mumbai testnet, seed database, and launch beta to first 100 users. Short-term growth includes: onboard first women's cooperative, train AI models with real data, launch marketing campaigns, achieve 1,000 active users and 5,000 products, and deploy smart contracts to Polygon mainnet. The network growth visualization image is included on the left side to represent scaling and community growth.",
+      "image_plan": "/home/ubuntu/upload/search_images/7a8BvQLonyHf.jpg - Network Growth Visualization image positioned on the left side of the slide to visually represent the growth and scaling of the user base and partnerships during the immediate and short-term phases.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "next_steps_cont",
+      "title": "Launch Roadmap: Long-term Scaling & Investment",
+      "summary": "Continuation slide covering Long-term Scaling (Month 3-12) and Investment Opportunity. Long-term scaling includes: expand to 5+ cities with local Sakshi Centers, replicate platform for other cooperatives (open-source model), achieve 10,000+ users and $500K+ GMV, and establish market leadership in conscious commerce. Investment opportunity section highlights seeking strategic partners to accelerate growth and expand the Sakshi Center network, with platform valued at $2M based on comparable AI-powered marketplaces. Contact information provided: foundation@sakshicenter.org",
+      "slide_template_key": "",
+      "image_plan": "No image needed for this continuation slide - it focuses on the long-term scaling milestones and investment opportunity details."
+    }
+  ]
+}

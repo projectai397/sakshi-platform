@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 AI Features: Additional Capabilities</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            padding: 40px 80px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slide-header {
+            margin-bottom: 18px;
+        }
+        
+        .slide-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #1A1A2E;
+            line-height: 1.3;
+            margin-bottom: 6px;
+        }
+        
+        .tier-label {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #6C63FF;
+            margin-bottom: 10px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px 40px;
+            margin-bottom: 10px;
+        }
+        
+        .ai-feature {
+            display: flex;
+            gap: 14px;
+            align-items: start;
+        }
+        
+        .feature-marker {
+            width: 38px;
+            height: 38px;
+            flex-shrink: 0;
+            position: relative;
+        }
+        
+        .marker-1 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #6C63FF 0%, #00D4FF 100%);
+            transform: perspective(80px) rotateX(25deg) rotateY(-25deg);
+            box-shadow: 4px 4px 0px rgba(108, 99, 255, 0.25);
+        }
+        
+        .marker-2 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #FF6B9D 0%, #FFA06B 100%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            box-shadow: 4px 4px 0px rgba(255, 107, 157, 0.25);
+        }
+        
+        .marker-3 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #00D4FF 0%, #6C63FF 100%);
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+            box-shadow: 4px 4px 0px rgba(0, 212, 255, 0.25);
+        }
+        
+        .marker-4 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #FFA06B 0%, #FF6B9D 100%);
+            transform: rotate(45deg) scale(0.75);
+            box-shadow: 4px 4px 0px rgba(255, 160, 107, 0.25);
+        }
+        
+        .marker-5 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #6C63FF 0%, #00D4FF 100%);
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+            box-shadow: 4px 4px 0px rgba(108, 99, 255, 0.25);
+        }
+        
+        .marker-6 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #FF6B9D 0%, #FFA06B 100%);
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+            box-shadow: 4px 4px 0px rgba(255, 107, 157, 0.25);
+        }
+        
+        .marker-7 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #00D4FF 0%, #6C63FF 100%);
+            transform: rotate(45deg) scale(0.75);
+            box-shadow: 4px 4px 0px rgba(0, 212, 255, 0.25);
+        }
+        
+        .marker-8 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #6C63FF 0%, #00D4FF 100%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            box-shadow: 4px 4px 0px rgba(108, 99, 255, 0.25);
+        }
+        
+        .marker-9 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #FFA06B 0%, #FF6B9D 100%);
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+            box-shadow: 4px 4px 0px rgba(255, 160, 107, 0.25);
+        }
+        
+        .marker-10 {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #00D4FF 0%, #6C63FF 100%);
+            transform: perspective(80px) rotateX(25deg) rotateY(-25deg);
+            box-shadow: 4px 4px 0px rgba(0, 212, 255, 0.25);
+        }
+        
+        .feature-info {
+            flex: 1;
+        }
+        
+        .feature-name {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #1A1A2E;
+            margin-bottom: 4px;
+        }
+        
+        .feature-description {
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            color: #4A4A68;
+            line-height: 1.4;
+        }
+        
+        .tier-divider {
+            margin: 10px 0;
+        }
+        
+        .closing-statement {
+            margin-top: 10px;
+            padding: 12px 18px;
+            background: linear-gradient(135deg, rgba(108, 99, 255, 0.05) 0%, rgba(255, 107, 157, 0.05) 100%);
+        }
+        
+        .closing-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #6C63FF;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Beyond the core five, ten additional AI features provide comprehensive platform intelligence</h1>
+            <p class="tier-label">Tier 2 - High Impact Features:</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-1"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Customer LTV Prediction</h3>
+                    <p class="feature-description">ML models forecast lifetime value to prioritize high-value users and optimize retention strategies</p>
+                </div>
+            </div>
+            
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-2"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Fraud Detection</h3>
+                    <p class="feature-description">Real-time anomaly detection identifies suspicious transactions and protects the community</p>
+                </div>
+            </div>
+            
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-3"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Smart Chatbot Enhancement</h3>
+                    <p class="feature-description">NLP-powered assistant with intent recognition provides instant, accurate customer support</p>
+                </div>
+            </div>
+            
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-4"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Demand Forecasting</h3>
+                    <p class="feature-description">Predictive analytics anticipate category-level demand to optimize inventory acquisition</p>
+                </div>
+            </div>
+            
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-5"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Automated Product Tagging</h3>
+                    <p class="feature-description">NLP automatically categorizes and tags products, reducing manual effort by 80%</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tier-divider">
+            <p class="tier-label">Tier 3 - Medium Impact Features:</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-6"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Size & Fit Recommendations</h3>
+                    <p class="feature-description">ML-based sizing suggestions reduce returns and improve customer satisfaction</p>
+                </div>
+            </div>
+            
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-7"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Sentiment Analysis</h3>
+                    <p class="feature-description">NLP classifies review sentiment to surface quality issues and highlight top products</p>
+                </div>
+            </div>
+            
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-8"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Personalized Email Marketing</h3>
+                    <p class="feature-description">Dynamic campaigns tailored to individual user preferences and browsing behavior</p>
+                </div>
+            </div>
+            
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-9"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Voice Search</h3>
+                    <p class="feature-description">Hands-free product discovery through natural language voice commands</p>
+                </div>
+            </div>
+            
+            <div class="ai-feature">
+                <div class="feature-marker">
+                    <div class="marker-10"></div>
+                </div>
+                <div class="feature-info">
+                    <h3 class="feature-name">Trend Prediction</h3>
+                    <p class="feature-description">Fashion trend forecasting helps curate inventory aligned with emerging consumer preferences</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="closing-statement">
+            <p class="closing-text">All 15 AI features work together as an integrated ecosystem, continuously learning and optimizing platform performance</p>
+        </div>
+    </div>
+</body>
+</html>

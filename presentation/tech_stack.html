@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Stack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slide-header {
+            margin-bottom: 45px;
+        }
+        
+        .slide-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #1A1A2E;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+        
+        .slide-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #4A4A68;
+            line-height: 1.6;
+        }
+        
+        .tech-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 40px;
+            flex: 1;
+        }
+        
+        .tech-category {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px;
+            background: linear-gradient(135deg, rgba(108, 99, 255, 0.03) 0%, rgba(255, 107, 157, 0.03) 100%);
+        }
+        
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .tech-icon {
+            width: 55px;
+            height: 55px;
+            flex-shrink: 0;
+            position: relative;
+        }
+        
+        .iso-cube-small {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #6C63FF 0%, #00D4FF 100%);
+            transform: perspective(80px) rotateX(25deg) rotateY(-25deg);
+            box-shadow: 7px 7px 0px rgba(108, 99, 255, 0.25);
+        }
+        
+        .iso-pyramid-small {
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 50px solid;
+            border-image: linear-gradient(135deg, #FF6B9D 0%, #FFA06B 100%) 1;
+            filter: drop-shadow(7px 7px 0px rgba(255, 107, 157, 0.25));
+        }
+        
+        .iso-diamond-small {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, #00D4FF 0%, #6C63FF 100%);
+            transform: rotate(45deg);
+            box-shadow: 7px 7px 0px rgba(0, 212, 255, 0.25);
+        }
+        
+        .iso-hexagon-small {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #FFA06B 0%, #FF6B9D 100%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            box-shadow: 7px 7px 0px rgba(255, 160, 107, 0.25);
+        }
+        
+        .category-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 22px;
+            font-weight: 600;
+            color: #1A1A2E;
+        }
+        
+        .tech-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .tech-item {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #4A4A68;
+            line-height: 1.6;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .tech-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 8px;
+            height: 8px;
+            background: linear-gradient(135deg, #6C63FF 0%, #FF6B9D 100%);
+            transform: rotate(45deg);
+        }
+        
+        .tech-highlight {
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: #6C63FF;
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Built on proven, production-grade technologies used by companies like Netflix, Airbnb, and Stripe</h1>
+        </div>
+        
+        <div class="tech-grid">
+            <div class="tech-category">
+                <div class="category-header">
+                    <div class="tech-icon">
+                        <div class="iso-cube-small"></div>
+                    </div>
+                    <h3 class="category-title">Frontend Excellence</h3>
+                </div>
+                <div class="tech-list">
+                    <div class="tech-item">Next.js + React + TypeScript for type-safe, performant UI</div>
+                    <div class="tech-item">Tailwind CSS for beautiful, responsive design</div>
+                    <div class="tech-highlight">Optimized for sub-3-second load times</div>
+                </div>
+            </div>
+            
+            <div class="tech-category">
+                <div class="category-header">
+                    <div class="tech-icon">
+                        <div class="iso-pyramid-small"></div>
+                    </div>
+                    <h3 class="category-title">Backend Power</h3>
+                </div>
+                <div class="tech-list">
+                    <div class="tech-item">Node.js + tRPC for type-safe API calls</div>
+                    <div class="tech-item">PostgreSQL for reliable data storage</div>
+                    <div class="tech-item">Redis for high-speed caching</div>
+                </div>
+            </div>
+            
+            <div class="tech-category">
+                <div class="category-header">
+                    <div class="tech-icon">
+                        <div class="iso-diamond-small"></div>
+                    </div>
+                    <h3 class="category-title">AI/ML Infrastructure</h3>
+                </div>
+                <div class="tech-list">
+                    <div class="tech-item">Python + Scikit-learn for classical ML</div>
+                    <div class="tech-item">PyTorch + Transformers for deep learning</div>
+                    <div class="tech-item">CLIP for visual search capabilities</div>
+                </div>
+            </div>
+            
+            <div class="tech-category">
+                <div class="category-header">
+                    <div class="tech-icon">
+                        <div class="iso-hexagon-small"></div>
+                    </div>
+                    <h3 class="category-title">Blockchain Integration</h3>
+                </div>
+                <div class="tech-list">
+                    <div class="tech-item">Solidity smart contracts on Polygon</div>
+                    <div class="tech-item">Hardhat for development and testing</div>
+                    <div class="tech-item">Ethers.js for Web3 connectivity</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

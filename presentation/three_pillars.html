@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Powerful Elements</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slide-header {
+            margin-bottom: 50px;
+        }
+        
+        .slide-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #1A1A2E;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+        
+        .slide-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #4A4A68;
+            line-height: 1.6;
+            max-width: 900px;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+        
+        .features-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: start;
+            gap: 20px;
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .iso-shape {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        
+        .iso-diamond {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #6C63FF 0%, #00D4FF 100%);
+            transform: rotate(45deg);
+            box-shadow: 8px 8px 0px rgba(108, 99, 255, 0.2);
+        }
+        
+        .iso-hexagon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #FF6B9D 0%, #FFA06B 100%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            box-shadow: 8px 8px 0px rgba(255, 107, 157, 0.2);
+        }
+        
+        .iso-triangle {
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 45px solid #6C63FF;
+            box-shadow: 8px 8px 0px rgba(108, 99, 255, 0.2);
+        }
+        
+        .iso-circle {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #00D4FF 0%, #6C63FF 100%);
+            border-radius: 50%;
+            box-shadow: 8px 8px 0px rgba(0, 212, 255, 0.2);
+        }
+        
+        .iso-pentagon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #FFA06B 0%, #FF6B9D 100%);
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+            box-shadow: 8px 8px 0px rgba(255, 160, 107, 0.2);
+        }
+        
+        .feature-content {
+            flex: 1;
+        }
+        
+        .feature-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #1A1A2E;
+            margin-bottom: 8px;
+        }
+        
+        .feature-desc {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #4A4A68;
+            line-height: 1.5;
+        }
+        
+        .visual-column {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .main-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            object-fit: contain;
+            box-shadow: 15px 15px 0px rgba(108, 99, 255, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">Sakshi merges cutting-edge AI, blockchain, and social impact to create the most advanced circular economy platform</h1>
+        </div>
+        
+        <div class="content-grid">
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <div class="iso-shape iso-diamond"></div>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">62 Total Features</h3>
+                        <p class="feature-desc">47 core e-commerce features plus 15 AI/ML capabilities deliver a complete marketplace experience</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <div class="iso-shape iso-hexagon"></div>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">SakshiChain Innovation</h3>
+                        <p class="feature-desc">Digital Product Passports (NFTs) and SakshiCoin (SAK) tokens create unprecedented trust and engagement</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <div class="iso-shape iso-triangle"></div>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Triple Pricing System</h3>
+                        <p class="feature-desc">Money, Seva Tokens, and Free options ensure universal access while maintaining sustainability</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <div class="iso-shape iso-circle"></div>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Production-Ready</h3>
+                        <p class="feature-desc">100% complete codebase with zero build errors, comprehensive documentation, and deployment configurations</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <div class="iso-shape iso-pentagon"></div>
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Measurable Impact</h3>
+                        <p class="feature-desc">Platform tracks and displays environmental savings (CO2, water) for every transaction</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="visual-column">
+                <img src="/home/ubuntu/upload/search_images/tkC2Xt78POGu.jpg" alt="AI Technology" class="main-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

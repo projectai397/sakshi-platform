@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch Roadmap: Immediate & Short-term</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slide-header {
+            margin-bottom: 35px;
+        }
+        
+        .slide-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #1A1A2E;
+            line-height: 1.4;
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 50px;
+            flex: 1;
+        }
+        
+        .image-column {
+            width: 420px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .network-image {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            box-shadow: 12px 12px 0px rgba(108, 99, 255, 0.15);
+        }
+        
+        .timeline-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            justify-content: center;
+        }
+        
+        .phase {
+            display: flex;
+            gap: 20px;
+            align-items: start;
+        }
+        
+        .phase-marker {
+            width: 55px;
+            height: 55px;
+            flex-shrink: 0;
+            position: relative;
+        }
+        
+        .marker-immediate {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #6C63FF 0%, #00D4FF 100%);
+            transform: perspective(80px) rotateX(25deg) rotateY(-25deg);
+            box-shadow: 7px 7px 0px rgba(108, 99, 255, 0.25);
+        }
+        
+        .marker-short {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #FF6B9D 0%, #FFA06B 100%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            box-shadow: 7px 7px 0px rgba(255, 107, 157, 0.25);
+        }
+        
+        .phase-content {
+            flex: 1;
+        }
+        
+        .phase-header {
+            margin-bottom: 12px;
+        }
+        
+        .phase-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #1A1A2E;
+            margin-bottom: 4px;
+        }
+        
+        .phase-timeframe {
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: #6C63FF;
+        }
+        
+        .phase-milestones {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .milestone {
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            color: #4A4A68;
+            line-height: 1.5;
+            padding-left: 18px;
+            position: relative;
+        }
+        
+        .milestone::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 7px;
+            height: 7px;
+            background: #6C63FF;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">From deployment to growth in the first 90 days with clear milestones and measurable outcomes</h1>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="image-column">
+                <img src="/home/ubuntu/upload/search_images/7a8BvQLonyHf.jpg" alt="Network Growth Visualization" class="network-image">
+            </div>
+            
+            <div class="timeline-column">
+                <div class="phase">
+                    <div class="phase-marker">
+                        <div class="marker-immediate"></div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <h3 class="phase-title">Immediate Deployment</h3>
+                            <p class="phase-timeframe">Week 1-2</p>
+                        </div>
+                        <div class="phase-milestones">
+                            <div class="milestone">Deploy to Railway or preferred hosting platform</div>
+                            <div class="milestone">Run end-to-end testing with real users</div>
+                            <div class="milestone">Deploy smart contracts to Polygon Mumbai testnet</div>
+                            <div class="milestone">Seed database with initial product catalog</div>
+                            <div class="milestone">Launch beta to first 100 users</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="phase">
+                    <div class="phase-marker">
+                        <div class="marker-short"></div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <h3 class="phase-title">Short-term Growth</h3>
+                            <p class="phase-timeframe">Month 1-3</p>
+                        </div>
+                        <div class="phase-milestones">
+                            <div class="milestone">Onboard first women's cooperative partnership</div>
+                            <div class="milestone">Train AI models with real transaction data</div>
+                            <div class="milestone">Launch marketing campaigns and referral program</div>
+                            <div class="milestone">Achieve 1,000 active users and 5,000 products</div>
+                            <div class="milestone">Deploy smart contracts to Polygon mainnet</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

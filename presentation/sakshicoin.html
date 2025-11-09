@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SakshiCoin Rewards Economy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .slide-header {
+            margin-bottom: 40px;
+        }
+        
+        .slide-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #1A1A2E;
+            line-height: 1.4;
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 60px;
+            flex: 1;
+        }
+        
+        .left-column {
+            flex: 1.5;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+        
+        .right-column {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .section {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .section-icon {
+            width: 50px;
+            height: 50px;
+            flex-shrink: 0;
+            position: relative;
+        }
+        
+        .iso-diamond-earn {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, #6C63FF 0%, #00D4FF 100%);
+            transform: rotate(45deg);
+            box-shadow: 8px 8px 0px rgba(108, 99, 255, 0.2);
+        }
+        
+        .iso-diamond-spend {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, #FF6B9D 0%, #FFA06B 100%);
+            transform: rotate(45deg);
+            box-shadow: 8px 8px 0px rgba(255, 107, 157, 0.2);
+        }
+        
+        .section-content {
+            flex: 1;
+        }
+        
+        .section-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #1A1A2E;
+            margin-bottom: 15px;
+        }
+        
+        .item-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .list-item {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #4A4A68;
+            line-height: 1.5;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .list-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 8px;
+            height: 8px;
+            background: #6C63FF;
+            transform: rotate(45deg);
+        }
+        
+        .economic-note {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #6C63FF;
+            padding: 15px 20px;
+            background: linear-gradient(135deg, rgba(108, 99, 255, 0.08) 0%, rgba(255, 107, 157, 0.08) 100%);
+            margin-top: 10px;
+        }
+        
+        .network-image {
+            width: 100%;
+            max-width: 420px;
+            height: auto;
+            object-fit: contain;
+            box-shadow: 12px 12px 0px rgba(108, 99, 255, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1 class="slide-title">ERC20 utility token turns users into stakeholders and rewards positive community actions</h1>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="left-column">
+                <div class="section">
+                    <div class="section-icon">
+                        <div class="iso-diamond-earn"></div>
+                    </div>
+                    <div class="section-content">
+                        <h3 class="section-title">Earning SAK Tokens</h3>
+                        <div class="item-list">
+                            <div class="list-item">Quality product listings and accurate descriptions</div>
+                            <div class="list-item">Repairing items instead of discarding them</div>
+                            <div class="list-item">Writing helpful reviews and guides</div>
+                            <div class="list-item">Referring new community members</div>
+                            <div class="list-item">Attending events and volunteering</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <div class="section-icon">
+                        <div class="iso-diamond-spend"></div>
+                    </div>
+                    <div class="section-content">
+                        <h3 class="section-title">Spending SAK Tokens</h3>
+                        <div class="item-list">
+                            <div class="list-item">Discounts on purchases (up to 50% off)</div>
+                            <div class="list-item">Access to exclusive or limited items</div>
+                            <div class="list-item">Premium features and early access</div>
+                            <div class="list-item">Voting power in community governance</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="economic-note">
+                    Economic Model: Staking rewards encourage long-term holding, while governance rights create true ownership
+                </div>
+            </div>
+            
+            <div class="right-column">
+                <img src="/home/ubuntu/upload/search_images/ZD1zd2uRqvSZ.png" alt="Token Network" class="network-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

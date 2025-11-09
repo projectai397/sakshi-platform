@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Product Passports</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 0;
+        }
+        
+        .image-column {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 40px;
+            background: linear-gradient(135deg, rgba(108, 99, 255, 0.05) 0%, rgba(0, 212, 255, 0.05) 100%);
+        }
+        
+        .blockchain-image {
+            width: 100%;
+            height: auto;
+            max-height: 600px;
+            object-fit: contain;
+            box-shadow: 12px 12px 0px rgba(108, 99, 255, 0.15);
+        }
+        
+        .content-column {
+            padding: 60px 80px 60px 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .slide-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #1A1A2E;
+            line-height: 1.4;
+            margin-bottom: 40px;
+        }
+        
+        .benefits-list {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+        
+        .benefit-item {
+            display: flex;
+            align-items: start;
+            gap: 18px;
+        }
+        
+        .benefit-icon {
+            width: 45px;
+            height: 45px;
+            flex-shrink: 0;
+            position: relative;
+        }
+        
+        .iso-cube-small {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #6C63FF 0%, #00D4FF 100%);
+            transform: perspective(80px) rotateX(25deg) rotateY(-25deg);
+            box-shadow: 5px 5px 0px rgba(108, 99, 255, 0.25);
+        }
+        
+        .iso-pyramid-small {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 35px solid #FF6B9D;
+            box-shadow: 5px 5px 0px rgba(255, 107, 157, 0.25);
+        }
+        
+        .iso-diamond-small {
+            width: 35px;
+            height: 35px;
+            background: linear-gradient(135deg, #00D4FF 0%, #6C63FF 100%);
+            transform: rotate(45deg);
+            box-shadow: 5px 5px 0px rgba(0, 212, 255, 0.25);
+        }
+        
+        .iso-hex-small {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #FFA06B 0%, #FF6B9D 100%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            box-shadow: 5px 5px 0px rgba(255, 160, 107, 0.25);
+        }
+        
+        .iso-pent-small {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #6C63FF 0%, #00D4FF 100%);
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+            box-shadow: 5px 5px 0px rgba(108, 99, 255, 0.25);
+        }
+        
+        .iso-oct-small {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #FF6B9D 0%, #FFA06B 100%);
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+            box-shadow: 5px 5px 0px rgba(255, 107, 157, 0.25);
+        }
+        
+        .benefit-content {
+            flex: 1;
+        }
+        
+        .benefit-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #1A1A2E;
+            margin-bottom: 6px;
+        }
+        
+        .benefit-desc {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #4A4A68;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="image-column">
+            <img src="/home/ubuntu/upload/search_images/Y0o7JX8vOJtp.jpg" alt="Blockchain Network" class="blockchain-image">
+        </div>
+        
+        <div class="content-column">
+            <h1 class="slide-title">Every item gets a blockchain-verified NFT that tracks its entire lifecycle and proves authenticity</h1>
+            
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <div class="iso-cube-small"></div>
+                    </div>
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Immutable Provenance</h3>
+                        <p class="benefit-desc">DPPs record original brand, materials, and ownership history on Polygon blockchain</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <div class="iso-pyramid-small"></div>
+                    </div>
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Lifecycle Tracking</h3>
+                        <p class="benefit-desc">Every repair, alteration, or upcycling event is permanently documented</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <div class="iso-diamond-small"></div>
+                    </div>
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Environmental Impact</h3>
+                        <p class="benefit-desc">Real-time calculation of CO2 and water savings displayed to users</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <div class="iso-hex-small"></div>
+                    </div>
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Counterfeit Elimination</h3>
+                        <p class="benefit-desc">Blockchain verification makes it impossible to fake product history</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <div class="iso-pent-small"></div>
+                    </div>
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Value Addition</h3>
+                        <p class="benefit-desc">Documented care and repairs increase item value and buyer confidence</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <div class="iso-oct-small"></div>
+                    </div>
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Industry First</h3>
+                        <p class="benefit-desc">Sakshi is the first thrift platform to implement comprehensive DPP system</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
