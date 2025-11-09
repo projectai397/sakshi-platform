@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "Sakshi: India's First Conscious Living Ecosystem",
+    "created": 1762665963.7675402,
+    "last_updated": 1762665994.5546703,
+    "total_slides": 15
+  },
+  "slides": {
+    "title": "edited",
+    "problem": "edit_pending",
+    "solution": "edit_pending",
+    "business_model": "edit_pending",
+    "market": "edit_pending",
+    "competitive_advantage": "edit_pending",
+    "technology": "edit_pending",
+    "traction": "edit_pending",
+    "go_to_market": "edit_pending",
+    "financials": "edit_pending",
+    "impact": "edit_pending",
+    "team": "edit_pending",
+    "ask": "edit_pending",
+    "vision": "edit_pending",
+    "closing": "edit_pending"
+  },
+  "outline": [
+    {
+      "id": "title",
+      "title": "Sakshi: India's First Conscious Living Ecosystem",
+      "summary": "Title slide introducing Sakshi as India's first conscious living ecosystem platform, making sustainable living accessible, affordable, and aspirational for 1.4 billion Indians.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "problem",
+      "title": "India's Triple Crisis",
+      "summary": "India faces interconnected crises in health (135M diabetes), food waste (68M tonnes), farmer poverty (86% earn <₹10K/month), and environmental degradation, with healthy food remaining unaffordable for 95% of the population.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "solution",
+      "title": "The Sakshi Solution",
+      "summary": "Integrated ecosystem combining Sakshi Cafe (triple pricing), Repair Cafe, Swap Events, Upcycle Studio, and Digital Marketplace, all powered by Seva token economy rewarding sustainable behaviors.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "business_model",
+      "title": "Profitable Impact Model",
+      "summary": "Six revenue streams generating ₹24 crores by Year 3 with 15% EBITDA margin, while serving all income levels through innovative triple pricing (Community/Fair/Supporter) ensuring universal access.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "market",
+      "title": "₹50,000 Crore Market Opportunity",
+      "summary": "Massive and rapidly growing market across health food (₹30K cr), organic food (₹22K cr), restaurant tech (₹26K cr), targeting 60 million health-conscious urban Indians with 20%+ annual growth.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "competitive_advantage",
+      "title": "15 Unique Innovations Create Unassailable Moat",
+      "summary": "Proprietary features including Community Meal Sponsorship, Farm-to-Table Transparency, Zero-Waste Dashboard, Ayurvedic Customization, and Mindful Dining Tracker that no competitor can replicate.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "technology",
+      "title": "Production-Ready Technology Platform",
+      "summary": "Complete scalable platform with 97 database tables, 100+ APIs, 12 frontend components, AI integration, PWA support - 90,000+ lines of code ready for immediate deployment.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "traction",
+      "title": "Strong Validation & Product-Market Fit",
+      "summary": "10M+ Satvic Movement community, 50,000+ cafe requests, 87% survey willingness to visit weekly, 12 franchise partners identified - proven demand before launch with no direct competitors.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "go_to_market",
+      "title": "Phased Expansion Strategy",
+      "summary": "Three-phase rollout from Bangalore pilot (6 months) to 5 cities (18 months) to 25 locations nationwide (36 months) using community-owned franchise model with 60x LTV/CAC ratio.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "financials",
+      "title": "Path to ₹24 Crore Revenue",
+      "summary": "Year 1: ₹4.8cr revenue (5 locations), Year 2: ₹14.4cr (breakeven), Year 3: ₹24cr revenue with ₹3.6cr profit (15% margin) - strong unit economics with 65% gross margin.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "impact",
+      "title": "Triple Bottom Line Impact",
+      "summary": "By Year 3: 9M meals served, 500 farmers supported, 10K items repaired, 15K tonnes CO₂ reduced, 450M liters water saved - measurable social, environmental, and health outcomes.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "team",
+      "title": "Mission-Driven Expert Team",
+      "summary": "Experienced founders combining technology, food, and sustainability expertise, partnered with Subah Saraf (10M+ Satvic Movement followers), supported by strong advisory board.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "ask",
+      "title": "The Ask: ₹10 Crores Series A",
+      "summary": "Raising ₹10 crores for 20% equity to scale from 1 to 25 locations - 60% expansion, 20% technology, 15% marketing, 5% team - with clear milestones and 3.5x return in 5 years.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "vision",
+      "title": "Vision: Transforming India by 2030",
+      "summary": "1,000 locations serving 100M people, ₹1,000cr revenue, 1B meals served, 100K farmers supported - making Sakshi synonymous with conscious living and proving sustainable living can be mainstream.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "closing",
+      "title": "Invest in Sakshi",
+      "summary": "Massive market, proven demand, unique moat, strong economics, scalable model, triple bottom line returns - join us in building India's first conscious living ecosystem.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}
