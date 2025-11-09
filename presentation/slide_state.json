@@ -1,108 +1,124 @@
 {
   "project_info": {
-    "title": "Sakshi AI Platform",
-    "created": 1762547187.1588306,
-    "last_updated": 1762547601.46272,
-    "total_slides": 12
+    "title": "Sakshi Platform",
+    "created": 1762662603.9668038,
+    "last_updated": 1762662603.9668043,
+    "total_slides": 14
   },
   "slides": {
-    "title": "edited",
-    "three_pillars": "edited",
-    "core_platform": "edited",
-    "ai_features": "edited",
-    "ai_features_cont": "edited",
-    "digital_passports": "edited",
-    "sakshicoin": "edited",
-    "tech_stack": "edited",
-    "completion_status": "edited",
-    "business_impact": "edited",
-    "next_steps": "edited",
-    "next_steps_cont": "edited"
+    "title": "edit_pending",
+    "problem": "edit_pending",
+    "solution": "edit_pending",
+    "market": "edit_pending",
+    "business_model": "edit_pending",
+    "triple_pricing": "edit_pending",
+    "seva_tokens": "edit_pending",
+    "technology": "edit_pending",
+    "traction": "edit_pending",
+    "impact": "edit_pending",
+    "competitive": "edit_pending",
+    "go_to_market": "edit_pending",
+    "funding": "edit_pending",
+    "vision": "edit_pending"
   },
   "outline": [
     {
       "id": "title",
-      "title": "Sakshi AI Platform",
-      "summary": "Title slide introducing the Sakshi AI Platform as a next-generation thrift marketplace powered by AI and blockchain technology.",
-      "image_plan": "/home/ubuntu/upload/search_images/dxxPhcEjbbKC.png; /home/ubuntu/upload/search_images/FvlJRM1uFiDt.png - The slide introduces the platform as a \"Conscious Commerce\" thrift marketplace, which aligns perfectly with the concept of a Circular Economy. Images 7 and 8 both visually represent the circular economy model.",
+      "title": "Sakshi Platform",
+      "summary": "Title slide introducing Sakshi as a conscious living platform that makes sustainability accessible and affordable for all Indians.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "three_pillars",
-      "title": "Three Powerful Elements Transform Resale",
-      "summary": "Overview of how Sakshi merges AI, blockchain, and social impact with 62 total features, SakshiChain innovation, triple pricing system, and measurable environmental impact.",
-      "image_plan": "/home/ubuntu/upload/search_images/tkC2Xt78POGu.jpg - This slide discusses the combination of AI, blockchain, and social impact to create an advanced circular economy platform. Image 1 visually represents AI integrated with commerce/technology, covering the AI aspect. The circular economy aspect is covered by the previous slide.",
+      "id": "problem",
+      "title": "The Sustainability Gap is Widening",
+      "summary": "Despite growing awareness, sustainable living remains inaccessible due to high costs. 68% of Indians want to live sustainably but cite cost as barrier. ₹92,000 crores of usable goods wasted annually.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "core_platform",
-      "title": "Enterprise-Grade E-Commerce with Social Purpose",
-      "summary": "Details of all 47 core features including user management, product catalog, smart checkout, community features, admin dashboard, and mobile optimization.",
-      "image_plan": "",
+      "id": "solution",
+      "title": "A Comprehensive Conscious Living Ecosystem",
+      "summary": "Integrated platform with Sakshi Cafe (triple pricing), thrift marketplace, repair cafe, swap events, upcycle studio, and Seva token economy creating multiple pathways to sustainable living.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "ai_features",
-      "title": "15 AI Features: Tier 1 Critical Impact",
-      "summary": "First part focusing on the 5 Tier 1 critical AI features with their specific business impact metrics. Each feature includes the name, description, and impact percentage (Dynamic Pricing +25-35% revenue, Visual Search +40% discovery, Personalized Recommendations +30% AOV, Intelligent Inventory -30-40% cost, Quality Assessment +50% faster processing). The AI landscape image is included on the right side to provide visual support.",
-      "image_plan": "/home/ubuntu/upload/search_images/oiqN8vl55mr8.jpg - AI Technology Landscape image positioned on the right side of the slide to visually represent the power of AI driving these features.",
+      "id": "market",
+      "title": "₹2.4 Trillion Market Growing at 23% CAGR",
+      "summary": "Massive market opportunity across organic food (₹1.2T), secondhand goods (₹800B), and wellness (₹400B). Target audience of 150M urban millennials and health-conscious consumers.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "ai_features_cont",
-      "title": "15 AI Features: Additional Capabilities",
-      "summary": "Continuation slide showcasing the remaining 10 AI features across Tier 2 (High Impact) and Tier 3 (Medium Impact). Lists features including Customer LTV prediction, fraud detection, smart chatbot enhancement, demand forecasting, automated product tagging, size & fit recommendations, sentiment analysis for reviews, personalized email marketing, voice search capabilities, and trend prediction. Emphasizes that all 15 features work together to create a comprehensive AI-powered platform.",
-      "slide_template_key": "",
-      "image_plan": "No image needed for this continuation slide - it focuses on listing the additional 10 AI features with brief descriptions of their capabilities and business value."
-    },
-    {
-      "id": "digital_passports",
-      "title": "Digital Product Passports Solve Trust Challenge",
-      "summary": "Explanation of blockchain-verified NFTs that track product lifecycle, prove authenticity, calculate environmental impact, and eliminate counterfeits.",
-      "image_plan": "/home/ubuntu/upload/search_images/Y0o7JX8vOJtp.jpg - This slide focuses on Digital Product Passports (DPPs) and blockchain to solve the trust issue. Image 6 is a strong visualization of blockchain technology (glowing cubes/blocks in a network) and is highly relevant.",
+      "id": "business_model",
+      "title": "Multiple Revenue Streams, Sustainable Margins",
+      "summary": "Diversified revenue from cafe sales (60%), marketplace commissions (20%), subscriptions (8%), classes (7%), and franchises (5%). Unit economics showing 15% profit margin per location.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "sakshicoin",
-      "title": "SakshiCoin Creates Self-Sustaining Rewards Economy",
-      "summary": "Details on how users earn and spend SAK tokens, the economic model with staking rewards, and governance rights that create true ownership.",
-      "image_plan": "/home/ubuntu/upload/search_images/ZD1zd2uRqvSZ.png - This slide focuses on SakshiCoin, an ERC20 utility token, and the rewards economy. Image 5 is a complex network visualization, which can represent the interconnectedness of a token economy or a distributed ledger. It is the best remaining option for a crypto/network concept.",
+      "id": "triple_pricing",
+      "title": "Industry-First Pricing Model Ensuring Universal Access",
+      "summary": "Revolutionary triple pricing system with Community/Fair/Supporter tiers. Self-regulating, financially sustainable model where supporter tier subsidizes community access. Everyone eats with dignity.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "tech_stack",
-      "title": "Modern Technology Ensures Enterprise Scalability",
-      "summary": "Overview of the production-grade technology stack including frontend (Next.js, React, TypeScript), backend (Node.js, PostgreSQL, Redis), AI/ML (Python, PyTorch), and blockchain (Solidity, Polygon).",
-      "image_plan": "",
+      "id": "seva_tokens",
+      "title": "Gamifying Conscious Living Through Community Currency",
+      "summary": "Seva token economy rewards participation through volunteering, donations, and engagement. Users redeem tokens for meals, items, and classes. 50,000 tokens circulated monthly worth ₹5 lakhs.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "completion_status",
-      "title": "100% Complete and Ready for Deployment",
-      "summary": "Comprehensive completion status showing all 62 features implemented, zero build errors, complete documentation, 120+ test cases, and multiple deployment options.",
-      "image_plan": "",
+      "id": "technology",
+      "title": "Built for Scale with Modern Architecture",
+      "summary": "Production-ready platform with 70+ database tables, 100+ API endpoints, AI-powered recommendations, real-time inventory, multi-vendor marketplace. Cloud-native supporting 100,000+ concurrent users.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "business_impact",
-      "title": "Expected 300-500% ROI Within First Year",
-      "summary": "Projected business impact including revenue growth from AI features, cost reductions, user engagement metrics, and measurable social impact.",
-      "image_plan": "/home/ubuntu/upload/search_images/tN32vH6luXIr.jpg - This slide discusses the expected business impact, revenue growth, and cost reduction driven by AI. Image 2 is a professional visual of a person holding an AI chip/network, representing the power and future of the technology driving the business impact.",
+      "id": "traction",
+      "title": "Rapid Development, Ready for Launch",
+      "summary": "Complete platform built (109 files, 57,000+ lines). All systems operational including cafe, marketplace, operations, AI features. Ready for beta launch December 2025 with 500+ pre-launch signups.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "next_steps",
-      "title": "Launch Roadmap: Immediate & Short-term",
-      "summary": "First part of the 90-day roadmap focusing on Immediate Deployment (Week 1-2) and Short-term Growth (Month 1-3). Immediate deployment includes: deploy to Railway, run end-to-end testing, deploy smart contracts to Polygon Mumbai testnet, seed database, and launch beta to first 100 users. Short-term growth includes: onboard first women's cooperative, train AI models with real data, launch marketing campaigns, achieve 1,000 active users and 5,000 products, and deploy smart contracts to Polygon mainnet. The network growth visualization image is included on the left side to represent scaling and community growth.",
-      "image_plan": "/home/ubuntu/upload/search_images/7a8BvQLonyHf.jpg - Network Growth Visualization image positioned on the left side of the slide to visually represent the growth and scaling of the user base and partnerships during the immediate and short-term phases.",
+      "id": "impact",
+      "title": "Measuring Success Beyond Revenue",
+      "summary": "Year 1 targets: 50,000 meals served, 10,000 items diverted from landfills, 5,000 people accessing community pricing, 100 women employed, 30% reduction in food waste vs industry.",
+      "image_plan": "Use a suitable image if needed",
       "slide_template_key": ""
     },
     {
-      "id": "next_steps_cont",
-      "title": "Launch Roadmap: Long-term Scaling & Investment",
-      "summary": "Continuation slide covering Long-term Scaling (Month 3-12) and Investment Opportunity. Long-term scaling includes: expand to 5+ cities with local Sakshi Centers, replicate platform for other cooperatives (open-source model), achieve 10,000+ users and $500K+ GMV, and establish market leadership in conscious commerce. Investment opportunity section highlights seeking strategic partners to accelerate growth and expand the Sakshi Center network, with platform valued at $2M based on comparable AI-powered marketplaces. Contact information provided: foundation@sakshicenter.org",
-      "slide_template_key": "",
-      "image_plan": "No image needed for this continuation slide - it focuses on the long-term scaling milestones and investment opportunity details."
+      "id": "competitive",
+      "title": "What Makes Sakshi Unique",
+      "summary": "Differentiated through triple pricing, Seva tokens, 100% plant-based focus, community-owned model, integrated ecosystem. Network effects create sustainable moat as platform grows.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "go_to_market",
+      "title": "Phased Expansion Across India",
+      "summary": "Phase 1: Bangalore launch with 2 cafes. Phase 2: Expand to 8 locations. Phase 3: Multi-city expansion to 25 locations. Marketing through social media, events, influencers, and word-of-mouth.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "funding",
+      "title": "₹5 Crores Seed Round to Launch and Scale",
+      "summary": "Funding allocation: Cafe setup (40%), technology (20%), marketing (20%), working capital (15%), legal (5%). Milestones: 2 cafes, 10,000 users, 100 vendors, ₹80L monthly revenue.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "vision",
+      "title": "Building India's Largest Conscious Living Movement",
+      "summary": "3-year vision: 100 locations, 1M users, ₹100Cr revenue. 10-year vision: 1,000 locations, 10M users, ₹1,000Cr revenue. Mission: Make sustainable living accessible, affordable, and aspirational for every Indian.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
     }
   ]
 }
