@@ -1,7 +1,7 @@
 import { z } from 'zod';
-import { router, publicProcedure, protectedProcedure } from '../../trpc';
+import { router, publicProcedure, protectedProcedure } from '../../_core/trpc';
 import { getDb } from '../../db';
-import { menuItems, recipes } from '../../../drizzle/schema-cafe';
+import { sakshiMenuItems, recipes } from '../../../drizzle/schema-cafe';
 import { eq, and, like, sql } from 'drizzle-orm';
 
 export const cafeMenuRouter = router({
@@ -17,24 +17,24 @@ export const cafeMenuRouter = router({
       const conditions = [];
       
       if (input.category) {
-        conditions.push(eq(menuItems.category, input.category));
+        conditions.push(eq(sakshiMenuItems.category, input.category));
       }
       
       if (input.isAvailable !== undefined) {
-        conditions.push(eq(menuItems.isAvailable, input.isAvailable));
+        conditions.push(eq(sakshiMenuItems.isAvailable, input.isAvailable));
       }
       
       if (input.search) {
         conditions.push(
-          sql`${menuItems.name} ILIKE ${`%${input.search}%`} OR ${menuItems.description} ILIKE ${`%${input.search}%`}`
+          sql`${sakshiMenuItems.name} LIKE ${`%${input.search}%`} OR ${sakshiMenuItems.description} LIKE ${`%${input.search}%`}`
         );
       }
       
       const items = await db
         .select()
-        .from(menuItems)
+        .from(sakshiMenuItems)
         .where(conditions.length > 0 ? and(...conditions) : undefined)
-        .orderBy(menuItems.category, menuItems.name);
+        .orderBy(sakshiMenuItems.category, sakshiMenuItems.name);
       
       return items;
     }),
@@ -46,8 +46,8 @@ export const cafeMenuRouter = router({
       const db = getDb();
       const [item] = await db
         .select()
-        .from(menuItems)
-        .where(eq(menuItems.id, input.id));
+        .from(sakshiMenuItems)
+        .where(eq(sakshiMenuItems.id, input.id));
       
       if (!item) {
         throw new Error('Menu item not found');
@@ -82,7 +82,7 @@ export const cafeMenuRouter = router({
       const db = getDb();
       
       const [newItem] = await db
-        .insert(menuItems)
+        .insert(sakshiMenuItems)
         .values({
           ...input,
           proteinG: input.proteinG?.toString(),
@@ -136,9 +136,9 @@ export const cafeMenuRouter = router({
       if (updates.supporterPrice !== undefined) updateData.supporterPrice = updates.supporterPrice.toString();
       
       const [updatedItem] = await db
-        .update(menuItems)
+        .update(sakshiMenuItems)
         .set(updateData)
-        .where(eq(menuItems.id, id))
+        .where(eq(sakshiMenuItems.id, id))
         .returning();
       
       return updatedItem;
@@ -151,8 +151,8 @@ export const cafeMenuRouter = router({
       const db = getDb();
       
       await db
-        .delete(menuItems)
-        .where(eq(menuItems.id, input.id));
+        .delete(sakshiMenuItems)
+        .where(eq(sakshiMenuItems.id, input.id));
       
       return { success: true };
     }),
@@ -163,9 +163,9 @@ export const cafeMenuRouter = router({
       const db = getDb();
       
       const categories = await db
-        .selectDistinct({ category: menuItems.category })
-        .from(menuItems)
-        .where(eq(menuItems.isAvailable, true));
+        .selectDistinct({ category: sakshiMenuItems.category })
+        .from(sakshiMenuItems)
+        .where(eq(sakshiMenuItems.isAvailable, true));
       
       return categories.map(c => c.category).filter(Boolean);
     }),

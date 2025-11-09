@@ -26,6 +26,7 @@ import { voiceRouter } from "./routes/voice";
 import { trendRouter } from "./routes/trends";
 import { dppRouter } from "./routes/dpp";
 import { sakshicoinRouter } from "./routes/sakshicoin";
+import { cafeRouter } from "./routes/cafe";
 
 export const appRouter = router({
   system: systemRouter,
@@ -547,6 +548,9 @@ export const appRouter = router({
         return await db.createCafeApplication(input);
       }),
   }),
+
+  // ==================== SAKSHI CAFE ====================
+  cafe: cafeRouter,
 });
 
 export type AppRouter = typeof appRouter;

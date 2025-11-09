@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { router, publicProcedure, protectedProcedure } from '../../trpc';
+import { router, publicProcedure, protectedProcedure } from '../../_core/trpc';
 import { getDb } from '../../db';
 import { cookingClasses, classRegistrations } from '../../../drizzle/schema-cafe';
 import { eq, and, gte, desc } from 'drizzle-orm';

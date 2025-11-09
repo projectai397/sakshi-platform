@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { router, protectedProcedure } from '../../trpc';
+import { router, protectedProcedure } from '../../_core/trpc';
 import { getDb } from '../../db';
 import { nutritionLogs, healthMetrics } from '../../../drizzle/schema-cafe';
 import { eq, and, between, desc, sql } from 'drizzle-orm';

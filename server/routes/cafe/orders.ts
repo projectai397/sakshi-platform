@@ -1,7 +1,7 @@
 import { z } from 'zod';
-import { router, publicProcedure, protectedProcedure } from '../../trpc';
+import { router, publicProcedure, protectedProcedure } from '../../_core/trpc';
 import { getDb } from '../../db';
-import { cafeOrders, menuItems } from '../../../drizzle/schema-cafe';
+import { sakshiCafeOrders, sakshiMenuItems } from '../../../drizzle/schema-cafe';
 import { eq, and, desc } from 'drizzle-orm';
 
 export const cafeOrdersRouter = router({
@@ -33,8 +33,8 @@ export const cafeOrdersRouter = router({
       for (const item of input.items) {
         const [menuItem] = await db
           .select()
-          .from(menuItems)
-          .where(eq(menuItems.id, item.menuItemId));
+          .from(sakshiMenuItems)
+          .where(eq(sakshiMenuItems.id, item.menuItemId));
         
         if (!menuItem) {
           throw new Error(`Menu item ${item.menuItemId} not found`);
@@ -75,7 +75,7 @@ export const cafeOrdersRouter = router({
       
       // Create order
       const [order] = await db
-        .insert(cafeOrders)
+        .insert(sakshiCafeOrders)
         .values({
           userId: ctx.user.id,
           orderType: input.orderType,
@@ -109,9 +109,9 @@ export const cafeOrdersRouter = router({
       
       const orders = await db
         .select()
-        .from(cafeOrders)
-        .where(eq(cafeOrders.userId, ctx.user.id))
-        .orderBy(desc(cafeOrders.createdAt))
+        .from(sakshiCafeOrders)
+        .where(eq(sakshiCafeOrders.userId, ctx.user.id))
+        .orderBy(desc(sakshiCafeOrders.createdAt))
         .limit(input.limit)
         .offset(input.offset);
       
@@ -126,11 +126,11 @@ export const cafeOrdersRouter = router({
       
       const [order] = await db
         .select()
-        .from(cafeOrders)
+        .from(sakshiCafeOrders)
         .where(
           and(
-            eq(cafeOrders.id, input.id),
-            eq(cafeOrders.userId, ctx.user.id)
+            eq(sakshiCafeOrders.id, input.id),
+            eq(sakshiCafeOrders.userId, ctx.user.id)
           )
         );
       
@@ -152,12 +152,12 @@ export const cafeOrdersRouter = router({
       const db = getDb();
       
       const [updatedOrder] = await db
-        .update(cafeOrders)
+        .update(sakshiCafeOrders)
         .set({
           orderStatus: input.orderStatus,
           updatedAt: new Date(),
         })
-        .where(eq(cafeOrders.id, input.id))
+        .where(eq(sakshiCafeOrders.id, input.id))
         .returning();
       
       return updatedOrder;
@@ -171,11 +171,11 @@ export const cafeOrdersRouter = router({
       
       const [order] = await db
         .select()
-        .from(cafeOrders)
+        .from(sakshiCafeOrders)
         .where(
           and(
-            eq(cafeOrders.id, input.id),
-            eq(cafeOrders.userId, ctx.user.id)
+            eq(sakshiCafeOrders.id, input.id),
+            eq(sakshiCafeOrders.userId, ctx.user.id)
           )
         );
       
@@ -188,12 +188,12 @@ export const cafeOrdersRouter = router({
       }
       
       const [updatedOrder] = await db
-        .update(cafeOrders)
+        .update(sakshiCafeOrders)
         .set({
           orderStatus: 'cancelled',
           updatedAt: new Date(),
         })
-        .where(eq(cafeOrders.id, input.id))
+        .where(eq(sakshiCafeOrders.id, input.id))
         .returning();
       
       return updatedOrder;
@@ -213,18 +213,18 @@ export const cafeOrdersRouter = router({
       const conditions = [];
       
       if (input.cafeLocationId) {
-        conditions.push(eq(cafeOrders.cafeLocationId, input.cafeLocationId));
+        conditions.push(eq(sakshiCafeOrders.cafeLocationId, input.cafeLocationId));
       }
       
       if (input.orderStatus) {
-        conditions.push(eq(cafeOrders.orderStatus, input.orderStatus));
+        conditions.push(eq(sakshiCafeOrders.orderStatus, input.orderStatus));
       }
       
       const orders = await db
         .select()
-        .from(cafeOrders)
+        .from(sakshiCafeOrders)
         .where(conditions.length > 0 ? and(...conditions) : undefined)
-        .orderBy(desc(cafeOrders.createdAt))
+        .orderBy(desc(sakshiCafeOrders.createdAt))
         .limit(input.limit)
         .offset(input.offset);
       

@@ -29,6 +29,20 @@
       "when": 1762244382608,
       "tag": "0003_unique_mystique",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1762658315713,
+      "tag": "0004_little_nick_fury",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1762658381443,
+      "tag": "0005_abandoned_wendell_rand",
+      "breakpoints": true
     }
   ]
 }

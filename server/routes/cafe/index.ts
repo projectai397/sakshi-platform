@@ -1,4 +1,4 @@
-import { router } from '../../trpc';
+import { router } from '../../_core/trpc';
 import { cafeMenuRouter } from './menu';
 import { cafeOrdersRouter } from './orders';
 import { recipesRouter } from './recipes';

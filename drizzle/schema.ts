@@ -769,3 +769,6 @@ export const cafeApplications = mysqlTable("cafe_applications", {
 
 export type CafeApplication = typeof cafeApplications.$inferSelect;
 export type InsertCafeApplication = typeof cafeApplications.$inferInsert;
+
+// Export cafe-related tables
+export * from './schema-cafe';
