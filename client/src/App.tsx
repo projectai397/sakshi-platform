@@ -32,6 +32,11 @@ import Cafes from "./pages/Cafes";
 import CafeLocations from "./pages/CafeLocations";
 import CafeJoin from "./pages/CafeJoin";
 import Dashboard from "./pages/Dashboard";
+import CafeMenu from "./pages/cafe/Menu";
+import CafeRecipes from "./pages/cafe/Recipes";
+import CafeClasses from "./pages/cafe/Classes";
+import CafeDashboard from "./pages/cafe/Dashboard";
+import CafeAdmin from "./pages/admin/cafe/CafeAdmin";
 import { ChatbotWidget } from "./components/ChatbotWidget";
 
 function Router() {
@@ -65,6 +70,11 @@ function Router() {
       <Route path="/cafes/locations" component={CafeLocations} />
       <Route path="/cafes/join" component={CafeJoin} />
       <Route path="/dashboard" component={Dashboard} />
+      <Route path="/cafe/menu" component={CafeMenu} />
+      <Route path="/cafe/recipes" component={CafeRecipes} />
+      <Route path="/cafe/classes" component={CafeClasses} />
+      <Route path="/cafe/dashboard" component={CafeDashboard} />
+      <Route path="/admin/cafe" component={CafeAdmin} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>
