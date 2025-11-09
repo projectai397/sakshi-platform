@@ -2,8 +2,8 @@
   "project_info": {
     "title": "Sakshi: India's First Conscious Living Ecosystem",
     "created": 1762665963.7675402,
-    "last_updated": 1762681311.5524094,
-    "total_slides": 16
+    "last_updated": 1762681674.6164756,
+    "total_slides": 17
   },
   "slides": {
     "title": "edited",
@@ -14,14 +14,15 @@
     "competitive_advantage": "edited",
     "competitive_advantage_cont": "edited",
     "technology": "edited",
-    "traction": "edit_pending",
-    "go_to_market": "edit_pending",
+    "traction": "edited",
+    "go_to_market": "edited",
     "financials": "edited",
-    "impact": "edit_pending",
-    "team": "edit_pending",
-    "ask": "edit_pending",
-    "vision": "edit_pending",
-    "closing": "edit_pending"
+    "impact": "edited",
+    "team": "edited",
+    "ask": "edited",
+    "ask_cont": "edited",
+    "vision": "edited",
+    "closing": "edited"
   },
   "outline": [
     {
@@ -117,10 +118,17 @@
     },
     {
       "id": "ask",
-      "title": "The Ask: ₹10 Crores Series A",
-      "summary": "Raising ₹10 crores for 20% equity to scale from 1 to 25 locations - 60% expansion, 20% technology, 15% marketing, 5% team - with clear milestones and 3.5x return in 5 years.",
-      "image_plan": "Use a suitable image if needed",
+      "title": "The Ask: ₹10 Crores Seed Round",
+      "summary": "First part showing the funding ask of ₹10 crores for 20% equity (₹50 Cr post-money valuation) and detailed use of funds breakdown: 40% expansion (₹4 Cr), 20% technology (₹2 Cr), 20% marketing (₹2 Cr), 15% working capital (₹1.5 Cr), 5% team (₹0.5 Cr).",
+      "image_plan": "No images needed",
       "slide_template_key": ""
+    },
+    {
+      "id": "ask_cont",
+      "title": "Milestones & Expected Returns",
+      "summary": "Continuation showing 5 key milestones from Month 3 (beta launch) to Month 36 (national presence with 25 locations), and expected returns: Year 3 valuation of ₹175 Cr, investor stake value of ₹35 Cr, 3.5x return multiple in 36 months (61% IRR).",
+      "slide_template_key": "",
+      "image_plan": "No images needed"
     },
     {
       "id": "vision",
