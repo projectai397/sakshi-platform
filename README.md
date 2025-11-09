@@ -77,8 +77,16 @@ Digital Product Passports (NFTs) and SakshiCoin (SAK) tokens create unprecedente
 
 ## 🌍 Circular Economy Programs
 
-### Sakshi Cafés
-Women's cooperatives with democratic governance, serving organic food and building community.
+### Sakshi Cafe
+A comprehensive conscious food marketplace integrating Satvic Movement principles:
+- **100% Plant-Based Menu**: Ayurvedic-inspired meals with dosha balancing
+- **Triple Pricing**: Community/Fair/Supporter tiers for universal access
+- **Cooking Classes**: In-person and virtual classes teaching Satvic cooking
+- **Recipe Library**: Community-contributed recipes with ratings and reviews
+- **Meal Subscriptions**: Flexible delivery with customizable preferences
+- **Health Tracking**: Nutrition logging and wellness metrics
+- **Franchise Model**: Opportunities for community-owned cafe locations
+- **Seva Token Integration**: Earn tokens through classes, recipe contributions
 
 ### Repair Café
 Fix items, earn tokens, reduce waste. Expert volunteers help repair electronics, clothing, furniture, and more.
