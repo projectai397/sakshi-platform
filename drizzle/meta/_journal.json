@@ -50,6 +50,13 @@
       "when": 1762660174161,
       "tag": "0006_harsh_blindfold",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1762662195432,
+      "tag": "0007_useful_proudstar",
+      "breakpoints": true
     }
   ]
 }

@@ -775,3 +775,6 @@ export * from './schema-cafe';
 
 // Export other Sakshi Centers tables
 export * from './schema-centers';
+
+// Export business operations tables
+export * from './schema-operations';
